@@ -11,7 +11,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        RichTextBox1.Text = RichTextBox1.Text + vbCrLf + Button2.Text + Space(3) + "49"
+        RichTextBox1.Text = RichTextBox1.Text + vbCrLf + Button2.Text + Space(3) + "98"
 
 
 
