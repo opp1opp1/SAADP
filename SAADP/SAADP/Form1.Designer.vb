@@ -23,16 +23,30 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Burger8 = New System.Windows.Forms.Button()
+        Me.Burger7 = New System.Windows.Forms.Button()
+        Me.Burger6 = New System.Windows.Forms.Button()
+        Me.Burger5 = New System.Windows.Forms.Button()
+        Me.Burger4 = New System.Windows.Forms.Button()
+        Me.Burger3 = New System.Windows.Forms.Button()
+        Me.Burger2 = New System.Windows.Forms.Button()
+        Me.Burger1 = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Price = New System.Windows.Forms.RichTextBox()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button2)
+        Me.GroupBox1.Controls.Add(Me.Burger8)
+        Me.GroupBox1.Controls.Add(Me.Burger7)
+        Me.GroupBox1.Controls.Add(Me.Burger6)
+        Me.GroupBox1.Controls.Add(Me.Burger5)
+        Me.GroupBox1.Controls.Add(Me.Burger4)
+        Me.GroupBox1.Controls.Add(Me.Burger3)
+        Me.GroupBox1.Controls.Add(Me.Burger2)
+        Me.GroupBox1.Controls.Add(Me.Burger1)
         Me.GroupBox1.Font = New System.Drawing.Font("微軟正黑體", 16.0!)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
@@ -40,6 +54,78 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "漢堡類"
+        '
+        'Burger8
+        '
+        Me.Burger8.Location = New System.Drawing.Point(1063, 35)
+        Me.Burger8.Name = "Burger8"
+        Me.Burger8.Size = New System.Drawing.Size(145, 145)
+        Me.Burger8.TabIndex = 7
+        Me.Burger8.Text = "總匯蛋堡"
+        Me.Burger8.UseVisualStyleBackColor = True
+        '
+        'Burger7
+        '
+        Me.Burger7.Location = New System.Drawing.Point(912, 35)
+        Me.Burger7.Name = "Burger7"
+        Me.Burger7.Size = New System.Drawing.Size(145, 145)
+        Me.Burger7.TabIndex = 6
+        Me.Burger7.Text = "牛肉蛋堡"
+        Me.Burger7.UseVisualStyleBackColor = True
+        '
+        'Burger6
+        '
+        Me.Burger6.Location = New System.Drawing.Point(761, 35)
+        Me.Burger6.Name = "Burger6"
+        Me.Burger6.Size = New System.Drawing.Size(145, 145)
+        Me.Burger6.TabIndex = 5
+        Me.Burger6.Text = "香雞蛋堡"
+        Me.Burger6.UseVisualStyleBackColor = True
+        '
+        'Burger5
+        '
+        Me.Burger5.Location = New System.Drawing.Point(610, 35)
+        Me.Burger5.Name = "Burger5"
+        Me.Burger5.Size = New System.Drawing.Size(145, 145)
+        Me.Burger5.TabIndex = 4
+        Me.Burger5.Text = "烤肉蛋堡"
+        Me.Burger5.UseVisualStyleBackColor = True
+        '
+        'Burger4
+        '
+        Me.Burger4.Location = New System.Drawing.Point(459, 35)
+        Me.Burger4.Name = "Burger4"
+        Me.Burger4.Size = New System.Drawing.Size(145, 145)
+        Me.Burger4.TabIndex = 3
+        Me.Burger4.Text = "豬肉蛋堡"
+        Me.Burger4.UseVisualStyleBackColor = True
+        '
+        'Burger3
+        '
+        Me.Burger3.Location = New System.Drawing.Point(308, 35)
+        Me.Burger3.Name = "Burger3"
+        Me.Burger3.Size = New System.Drawing.Size(145, 145)
+        Me.Burger3.TabIndex = 2
+        Me.Burger3.Text = "肉鬆蛋堡"
+        Me.Burger3.UseVisualStyleBackColor = True
+        '
+        'Burger2
+        '
+        Me.Burger2.Location = New System.Drawing.Point(157, 35)
+        Me.Burger2.Name = "Burger2"
+        Me.Burger2.Size = New System.Drawing.Size(145, 145)
+        Me.Burger2.TabIndex = 1
+        Me.Burger2.Text = "玉米蛋堡"
+        Me.Burger2.UseVisualStyleBackColor = True
+        '
+        'Burger1
+        '
+        Me.Burger1.Location = New System.Drawing.Point(6, 35)
+        Me.Burger1.Name = "Burger1"
+        Me.Burger1.Size = New System.Drawing.Size(145, 145)
+        Me.Burger1.TabIndex = 0
+        Me.Burger1.Text = "卡啦雞腿堡"
+        Me.Burger1.UseVisualStyleBackColor = True
         '
         'RichTextBox1
         '
@@ -55,7 +141,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(417, 51)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "結帳"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Price
@@ -71,15 +157,6 @@ Partial Class Form1
         Me.Price.Size = New System.Drawing.Size(417, 78)
         Me.Price.TabIndex = 3
         Me.Price.Text = ""
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(6, 35)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(139, 145)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "卡啦雞腿堡"
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -98,8 +175,15 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Burger1 As Button
     Friend WithEvents RichTextBox1 As RichTextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Price As RichTextBox
+    Friend WithEvents Burger2 As Button
+    Friend WithEvents Burger4 As Button
+    Friend WithEvents Burger3 As Button
+    Friend WithEvents Burger8 As Button
+    Friend WithEvents Burger7 As Button
+    Friend WithEvents Burger6 As Button
+    Friend WithEvents Burger5 As Button
 End Class
