@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form 覆寫 Dispose 以清除元件清單。
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,11 +20,9 @@ Partial Class Form1
     '注意: 以下為 Windows Form 設計工具所需的程序
     '可以使用 Windows Form 設計工具進行修改。
     '請勿使用程式碼編輯器進行修改。
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Burger8 = New System.Windows.Forms.Button()
-        Me.Burger7 = New System.Windows.Forms.Button()
         Me.Burger6 = New System.Windows.Forms.Button()
         Me.Burger5 = New System.Windows.Forms.Button()
         Me.Burger4 = New System.Windows.Forms.Button()
@@ -34,13 +32,17 @@ Partial Class Form1
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Price = New System.Windows.Forms.RichTextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Burger8)
-        Me.GroupBox1.Controls.Add(Me.Burger7)
         Me.GroupBox1.Controls.Add(Me.Burger6)
         Me.GroupBox1.Controls.Add(Me.Burger5)
         Me.GroupBox1.Controls.Add(Me.Burger4)
@@ -55,74 +57,56 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "漢堡類"
         '
-        'Burger8
-        '
-        Me.Burger8.Location = New System.Drawing.Point(1063, 35)
-        Me.Burger8.Name = "Burger8"
-        Me.Burger8.Size = New System.Drawing.Size(145, 145)
-        Me.Burger8.TabIndex = 7
-        Me.Burger8.Text = "總匯蛋堡"
-        Me.Burger8.UseVisualStyleBackColor = True
-        '
-        'Burger7
-        '
-        Me.Burger7.Location = New System.Drawing.Point(912, 35)
-        Me.Burger7.Name = "Burger7"
-        Me.Burger7.Size = New System.Drawing.Size(145, 145)
-        Me.Burger7.TabIndex = 6
-        Me.Burger7.Text = "牛肉蛋堡"
-        Me.Burger7.UseVisualStyleBackColor = True
-        '
         'Burger6
         '
-        Me.Burger6.Location = New System.Drawing.Point(761, 35)
+        Me.Burger6.Location = New System.Drawing.Point(761, 140)
         Me.Burger6.Name = "Burger6"
-        Me.Burger6.Size = New System.Drawing.Size(145, 145)
+        Me.Burger6.Size = New System.Drawing.Size(145, 40)
         Me.Burger6.TabIndex = 5
         Me.Burger6.Text = "香雞蛋堡"
         Me.Burger6.UseVisualStyleBackColor = True
         '
         'Burger5
         '
-        Me.Burger5.Location = New System.Drawing.Point(610, 35)
+        Me.Burger5.Location = New System.Drawing.Point(610, 140)
         Me.Burger5.Name = "Burger5"
-        Me.Burger5.Size = New System.Drawing.Size(145, 145)
+        Me.Burger5.Size = New System.Drawing.Size(145, 40)
         Me.Burger5.TabIndex = 4
         Me.Burger5.Text = "烤肉蛋堡"
         Me.Burger5.UseVisualStyleBackColor = True
         '
         'Burger4
         '
-        Me.Burger4.Location = New System.Drawing.Point(459, 35)
+        Me.Burger4.Location = New System.Drawing.Point(459, 140)
         Me.Burger4.Name = "Burger4"
-        Me.Burger4.Size = New System.Drawing.Size(145, 145)
+        Me.Burger4.Size = New System.Drawing.Size(145, 40)
         Me.Burger4.TabIndex = 3
         Me.Burger4.Text = "豬肉蛋堡"
         Me.Burger4.UseVisualStyleBackColor = True
         '
         'Burger3
         '
-        Me.Burger3.Location = New System.Drawing.Point(308, 35)
+        Me.Burger3.Location = New System.Drawing.Point(308, 140)
         Me.Burger3.Name = "Burger3"
-        Me.Burger3.Size = New System.Drawing.Size(145, 145)
+        Me.Burger3.Size = New System.Drawing.Size(145, 40)
         Me.Burger3.TabIndex = 2
         Me.Burger3.Text = "肉鬆蛋堡"
         Me.Burger3.UseVisualStyleBackColor = True
         '
         'Burger2
         '
-        Me.Burger2.Location = New System.Drawing.Point(157, 35)
+        Me.Burger2.Location = New System.Drawing.Point(157, 140)
         Me.Burger2.Name = "Burger2"
-        Me.Burger2.Size = New System.Drawing.Size(145, 145)
+        Me.Burger2.Size = New System.Drawing.Size(145, 40)
         Me.Burger2.TabIndex = 1
         Me.Burger2.Text = "玉米蛋堡"
         Me.Burger2.UseVisualStyleBackColor = True
         '
         'Burger1
         '
-        Me.Burger1.Location = New System.Drawing.Point(6, 35)
+        Me.Burger1.Location = New System.Drawing.Point(6, 140)
         Me.Burger1.Name = "Burger1"
-        Me.Burger1.Size = New System.Drawing.Size(145, 145)
+        Me.Burger1.Size = New System.Drawing.Size(145, 40)
         Me.Burger1.TabIndex = 0
         Me.Burger1.Text = "卡啦雞腿堡"
         Me.Burger1.UseVisualStyleBackColor = True
@@ -158,11 +142,62 @@ Partial Class Form1
         Me.Price.TabIndex = 3
         Me.Price.Text = ""
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Button5)
+        Me.GroupBox2.Controls.Add(Me.Button4)
+        Me.GroupBox2.Controls.Add(Me.Button3)
+        Me.GroupBox2.Controls.Add(Me.Button2)
+        Me.GroupBox2.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(18, 220)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(1451, 197)
+        Me.GroupBox2.TabIndex = 4
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "飲料類"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(453, 151)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(145, 39)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "柳橙汁"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(302, 151)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(145, 40)
+        Me.Button4.TabIndex = 6
+        Me.Button4.Text = "綠茶"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(151, 151)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(145, 40)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "紅茶"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(0, 151)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(145, 40)
+        Me.Button2.TabIndex = 0
+        Me.Button2.Text = "奶茶"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
+        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Price)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.RichTextBox1)
@@ -170,6 +205,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -182,8 +218,11 @@ Partial Class Form1
     Friend WithEvents Burger2 As Button
     Friend WithEvents Burger4 As Button
     Friend WithEvents Burger3 As Button
-    Friend WithEvents Burger8 As Button
-    Friend WithEvents Burger7 As Button
     Friend WithEvents Burger6 As Button
     Friend WithEvents Burger5 As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
 End Class
