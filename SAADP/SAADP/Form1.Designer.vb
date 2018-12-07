@@ -23,6 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Burger8 = New System.Windows.Forms.Button()
+        Me.Burger7 = New System.Windows.Forms.Button()
         Me.Burger6 = New System.Windows.Forms.Button()
         Me.Burger5 = New System.Windows.Forms.Button()
         Me.Burger4 = New System.Windows.Forms.Button()
@@ -33,16 +35,18 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Price = New System.Windows.Forms.RichTextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Drink4 = New System.Windows.Forms.Button()
+        Me.Drink3 = New System.Windows.Forms.Button()
+        Me.Drink2 = New System.Windows.Forms.Button()
+        Me.Drink1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Burger8)
+        Me.GroupBox1.Controls.Add(Me.Burger7)
         Me.GroupBox1.Controls.Add(Me.Burger6)
         Me.GroupBox1.Controls.Add(Me.Burger5)
         Me.GroupBox1.Controls.Add(Me.Burger4)
@@ -56,6 +60,24 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "漢堡類"
+        '
+        'Burger8
+        '
+        Me.Burger8.Location = New System.Drawing.Point(912, 140)
+        Me.Burger8.Name = "Burger8"
+        Me.Burger8.Size = New System.Drawing.Size(145, 40)
+        Me.Burger8.TabIndex = 7
+        Me.Burger8.Text = "總匯漢堡"
+        Me.Burger8.UseVisualStyleBackColor = True
+        '
+        'Burger7
+        '
+        Me.Burger7.Location = New System.Drawing.Point(1063, 140)
+        Me.Burger7.Name = "Burger7"
+        Me.Burger7.Size = New System.Drawing.Size(145, 40)
+        Me.Burger7.TabIndex = 6
+        Me.Burger7.Text = "牛肉漢堡"
+        Me.Burger7.UseVisualStyleBackColor = True
         '
         'Burger6
         '
@@ -144,10 +166,10 @@ Partial Class Form1
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.Button5)
-        Me.GroupBox2.Controls.Add(Me.Button4)
-        Me.GroupBox2.Controls.Add(Me.Button3)
-        Me.GroupBox2.Controls.Add(Me.Button2)
+        Me.GroupBox2.Controls.Add(Me.Drink4)
+        Me.GroupBox2.Controls.Add(Me.Drink3)
+        Me.GroupBox2.Controls.Add(Me.Drink2)
+        Me.GroupBox2.Controls.Add(Me.Drink1)
         Me.GroupBox2.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(18, 220)
         Me.GroupBox2.Name = "GroupBox2"
@@ -156,41 +178,41 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "飲料類"
         '
-        'Button5
+        'Drink4
         '
-        Me.Button5.Location = New System.Drawing.Point(453, 151)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(145, 39)
-        Me.Button5.TabIndex = 7
-        Me.Button5.Text = "柳橙汁"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Drink4.Location = New System.Drawing.Point(453, 151)
+        Me.Drink4.Name = "Drink4"
+        Me.Drink4.Size = New System.Drawing.Size(145, 39)
+        Me.Drink4.TabIndex = 7
+        Me.Drink4.Text = "柳橙汁"
+        Me.Drink4.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Drink3
         '
-        Me.Button4.Location = New System.Drawing.Point(302, 151)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(145, 40)
-        Me.Button4.TabIndex = 6
-        Me.Button4.Text = "綠茶"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Drink3.Location = New System.Drawing.Point(302, 151)
+        Me.Drink3.Name = "Drink3"
+        Me.Drink3.Size = New System.Drawing.Size(145, 40)
+        Me.Drink3.TabIndex = 6
+        Me.Drink3.Text = "綠茶"
+        Me.Drink3.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Drink2
         '
-        Me.Button3.Location = New System.Drawing.Point(151, 151)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(145, 40)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "紅茶"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Drink2.Location = New System.Drawing.Point(151, 151)
+        Me.Drink2.Name = "Drink2"
+        Me.Drink2.Size = New System.Drawing.Size(145, 40)
+        Me.Drink2.TabIndex = 5
+        Me.Drink2.Text = "紅茶"
+        Me.Drink2.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Drink1
         '
-        Me.Button2.Location = New System.Drawing.Point(0, 151)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(145, 40)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "奶茶"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Drink1.Location = New System.Drawing.Point(0, 151)
+        Me.Drink1.Name = "Drink1"
+        Me.Drink1.Size = New System.Drawing.Size(145, 40)
+        Me.Drink1.TabIndex = 0
+        Me.Drink1.Text = "奶茶"
+        Me.Drink1.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -221,8 +243,10 @@ Partial Class Form1
     Friend WithEvents Burger6 As Button
     Friend WithEvents Burger5 As Button
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Drink4 As Button
+    Friend WithEvents Drink3 As Button
+    Friend WithEvents Drink2 As Button
+    Friend WithEvents Drink1 As Button
+    Friend WithEvents Burger8 As Button
+    Friend WithEvents Burger7 As Button
 End Class

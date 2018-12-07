@@ -2,7 +2,7 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'
 
-        Price.Text = 45 +  '輸入價錢 價錢為45 由於Price的文字是字串所以先轉換成數字'
+        Price.Text = 45 + Val(Price.Text) '輸入價錢 價錢為45 由於Price的文字是字串所以先轉換成數字'
 
     End Sub
     Private Sub Burger2_Click(sender As Object, e As EventArgs) Handles Burger2.Click '按下玉米蛋堡'
@@ -30,15 +30,16 @@
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
-    Private Sub Burger7_Click(sender As Object, e As EventArgs)  '按下牛肉蛋堡'
-        RichTextBox1.Text = Burger7.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋堡輸入在品項'
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Burger8.Click
+        RichTextBox1.Text = Burger8.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋堡輸入在品項'
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
-    Private Sub Burger8_Click(sender As Object, e As EventArgs)  '按下牛肉蛋堡'
-        RichTextBox1.Text = Burger8.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋堡輸入在品項'
 
-        Price.Text = 40 + Val(Price.Text) '輸入價錢 價錢為40 由於Price的文字是字串所以先轉換成數字'
+    Private Sub Burger7_Click_1(sender As Object, e As EventArgs) Handles Burger7.Click
+        RichTextBox1.Text = Burger7.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+
+        Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click '按下結帳按鈕'
@@ -54,11 +55,27 @@
 
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Drink1_Click(sender As Object, e As EventArgs) Handles Drink1.Click
+        RichTextBox1.Text = Drink1.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
 
+        Price.Text = 35 + Val(Price.Text)
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+    Private Sub Drink2_Click(sender As Object, e As EventArgs) Handles Drink2.Click
+        RichTextBox1.Text = Drink2.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
 
+        Price.Text = 35 + Val(Price.Text)
+    End Sub
+
+    Private Sub Drink3_Click(sender As Object, e As EventArgs) Handles Drink3.Click
+        RichTextBox1.Text = Drink3.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+
+        Price.Text = 35 + Val(Price.Text)
+    End Sub
+
+    Private Sub Drink4_Click(sender As Object, e As EventArgs) Handles Drink4.Click
+        RichTextBox1.Text = Drink4.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+
+        Price.Text = 35 + Val(Price.Text)
     End Sub
 End Class
