@@ -30,13 +30,13 @@
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
-    Private Sub Burger7_Click(sender As Object, e As EventArgs)  '按下牛肉蛋堡'
+    Private Sub Burger7_Click(sender As Object, e As EventArgs) Handles Burger7.Click  '按下牛肉蛋堡'
         RichTextBox1.Text = Burger7.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋堡輸入在品項'
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
-    Private Sub Burger8_Click(sender As Object, e As EventArgs)  '按下牛肉蛋堡'
-        RichTextBox1.Text = Burger8.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋堡輸入在品項'
+    Private Sub Burger8_Click(sender As Object, e As EventArgs) Handles Burger8.Click  '按下總匯蛋堡 '
+        RichTextBox1.Text = Burger8.Text + vbCrLf + RichTextBox1.Text '將總匯蛋堡輸入在品項'
 
         Price.Text = 40 + Val(Price.Text) '輸入價錢 價錢為40 由於Price的文字是字串所以先轉換成數字'
     End Sub

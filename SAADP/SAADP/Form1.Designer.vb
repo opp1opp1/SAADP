@@ -35,11 +35,11 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Price = New System.Windows.Forms.RichTextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Drink5 = New System.Windows.Forms.Button()
         Me.Drink4 = New System.Windows.Forms.Button()
         Me.Drink3 = New System.Windows.Forms.Button()
         Me.Drink2 = New System.Windows.Forms.Button()
         Me.Drink1 = New System.Windows.Forms.Button()
-        Me.Drink5 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -181,6 +181,15 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "飲料類"
         '
+        'Drink5
+        '
+        Me.Drink5.Location = New System.Drawing.Point(610, 152)
+        Me.Drink5.Name = "Drink5"
+        Me.Drink5.Size = New System.Drawing.Size(145, 39)
+        Me.Drink5.TabIndex = 8
+        Me.Drink5.Text = "豆漿"
+        Me.Drink5.UseVisualStyleBackColor = True
+        '
         'Drink4
         '
         Me.Drink4.Location = New System.Drawing.Point(459, 152)
@@ -216,15 +225,6 @@ Partial Class Form1
         Me.Drink1.TabIndex = 0
         Me.Drink1.Text = "奶茶"
         Me.Drink1.UseVisualStyleBackColor = True
-        '
-        'Drink5
-        '
-        Me.Drink5.Location = New System.Drawing.Point(610, 152)
-        Me.Drink5.Name = "Drink5"
-        Me.Drink5.Size = New System.Drawing.Size(145, 39)
-        Me.Drink5.TabIndex = 8
-        Me.Drink5.Text = "豆漿"
-        Me.Drink5.UseVisualStyleBackColor = True
         '
         'Button2
         '
