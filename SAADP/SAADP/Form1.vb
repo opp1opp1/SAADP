@@ -76,4 +76,40 @@
         Price.Text = 15 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
+    Private Sub GroupBox3_Enter(sender As Object, e As EventArgs) Handles GroupBox3.Enter
+
+    End Sub
+
+    Private Sub Admin1_Click(sender As Object, e As EventArgs) Handles Admin1.Click
+        RichTextBox1.Text = "" '清空品項'
+        Price.Text = "" '清空價錢'
+    End Sub
+
+    Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click
+
+    End Sub
+
+    Private Sub Admin3_Click(sender As Object, e As EventArgs) Handles Admin3.Click
+
+    End Sub
+
+    Private Sub Admin4_Click(sender As Object, e As EventArgs) Handles Admin4.Click
+
+    End Sub
+
+    Private Sub Admin5_Click(sender As Object, e As EventArgs) Handles Admin5.Click
+
+    End Sub
+
+    Private Sub Admin6_Click(sender As Object, e As EventArgs) Handles Admin6.Click
+
+    End Sub
+
+    Private Sub Admin7_Click(sender As Object, e As EventArgs) Handles Admin7.Click
+
+    End Sub
+
+    Private Sub Admin8_Click(sender As Object, e As EventArgs) Handles Admin8.Click
+
+    End Sub
 End Class

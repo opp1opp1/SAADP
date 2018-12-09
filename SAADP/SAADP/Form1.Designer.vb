@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Burger8 = New System.Windows.Forms.Button()
         Me.Burger7 = New System.Windows.Forms.Button()
         Me.Burger6 = New System.Windows.Forms.Button()
@@ -41,12 +42,23 @@ Partial Class Form1
         Me.Drink2 = New System.Windows.Forms.Button()
         Me.Drink1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Admin1 = New System.Windows.Forms.Button()
+        Me.Admin2 = New System.Windows.Forms.Button()
+        Me.Admin3 = New System.Windows.Forms.Button()
+        Me.Admin4 = New System.Windows.Forms.Button()
+        Me.Admin5 = New System.Windows.Forms.Button()
+        Me.Admin6 = New System.Windows.Forms.Button()
+        Me.Admin7 = New System.Windows.Forms.Button()
+        Me.Admin8 = New System.Windows.Forms.Button()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.Burger8)
         Me.GroupBox1.Controls.Add(Me.Burger7)
         Me.GroupBox1.Controls.Add(Me.Burger6)
@@ -62,6 +74,15 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "漢堡類"
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(3, 32)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Burger8
         '
@@ -236,11 +257,110 @@ Partial Class Form1
         Me.Button2.Text = "套餐飲料折抵"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Admin1
+        '
+        Me.Admin1.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin1.Location = New System.Drawing.Point(21, 41)
+        Me.Admin1.Name = "Admin1"
+        Me.Admin1.Size = New System.Drawing.Size(80, 80)
+        Me.Admin1.TabIndex = 6
+        Me.Admin1.Text = "清除菜單"
+        Me.Admin1.UseVisualStyleBackColor = True
+        '
+        'Admin2
+        '
+        Me.Admin2.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin2.Location = New System.Drawing.Point(127, 41)
+        Me.Admin2.Name = "Admin2"
+        Me.Admin2.Size = New System.Drawing.Size(80, 80)
+        Me.Admin2.TabIndex = 7
+        Me.Admin2.Text = "Promo Item"
+        Me.Admin2.UseVisualStyleBackColor = True
+        '
+        'Admin3
+        '
+        Me.Admin3.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin3.Location = New System.Drawing.Point(21, 127)
+        Me.Admin3.Name = "Admin3"
+        Me.Admin3.Size = New System.Drawing.Size(80, 80)
+        Me.Admin3.TabIndex = 8
+        Me.Admin3.Text = "領班選項"
+        Me.Admin3.UseVisualStyleBackColor = True
+        '
+        'Admin4
+        '
+        Me.Admin4.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin4.Location = New System.Drawing.Point(127, 127)
+        Me.Admin4.Name = "Admin4"
+        Me.Admin4.Size = New System.Drawing.Size(80, 80)
+        Me.Admin4.TabIndex = 9
+        Me.Admin4.Text = "查看上筆"
+        Me.Admin4.UseVisualStyleBackColor = True
+        '
+        'Admin5
+        '
+        Me.Admin5.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin5.Location = New System.Drawing.Point(21, 213)
+        Me.Admin5.Name = "Admin5"
+        Me.Admin5.Size = New System.Drawing.Size(80, 80)
+        Me.Admin5.TabIndex = 10
+        Me.Admin5.Text = "員工餐"
+        Me.Admin5.UseVisualStyleBackColor = True
+        '
+        'Admin6
+        '
+        Me.Admin6.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin6.Location = New System.Drawing.Point(127, 213)
+        Me.Admin6.Name = "Admin6"
+        Me.Admin6.Size = New System.Drawing.Size(80, 80)
+        Me.Admin6.TabIndex = 11
+        Me.Admin6.Text = "On9"
+        Me.Admin6.UseVisualStyleBackColor = True
+        '
+        'Admin7
+        '
+        Me.Admin7.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin7.Location = New System.Drawing.Point(21, 299)
+        Me.Admin7.Name = "Admin7"
+        Me.Admin7.Size = New System.Drawing.Size(80, 80)
+        Me.Admin7.TabIndex = 12
+        Me.Admin7.Text = "外帶"
+        Me.Admin7.UseVisualStyleBackColor = True
+        '
+        'Admin8
+        '
+        Me.Admin8.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin8.Location = New System.Drawing.Point(127, 299)
+        Me.Admin8.Name = "Admin8"
+        Me.Admin8.Size = New System.Drawing.Size(80, 80)
+        Me.Admin8.TabIndex = 13
+        Me.Admin8.Text = "內用"
+        Me.Admin8.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.Admin1)
+        Me.GroupBox3.Controls.Add(Me.Admin2)
+        Me.GroupBox3.Controls.Add(Me.Admin8)
+        Me.GroupBox3.Controls.Add(Me.Admin3)
+        Me.GroupBox3.Controls.Add(Me.Admin7)
+        Me.GroupBox3.Controls.Add(Me.Admin4)
+        Me.GroupBox3.Controls.Add(Me.Admin6)
+        Me.GroupBox3.Controls.Add(Me.Admin5)
+        Me.GroupBox3.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(1247, 220)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(222, 397)
+        Me.GroupBox3.TabIndex = 15
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "員工選項"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Price)
@@ -251,6 +371,7 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -274,4 +395,14 @@ Partial Class Form1
     Friend WithEvents Burger7 As Button
     Friend WithEvents Drink5 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Admin1 As Button
+    Friend WithEvents Admin2 As Button
+    Friend WithEvents Admin3 As Button
+    Friend WithEvents Admin4 As Button
+    Friend WithEvents Admin5 As Button
+    Friend WithEvents Admin6 As Button
+    Friend WithEvents Admin7 As Button
+    Friend WithEvents Admin8 As Button
+    Friend WithEvents GroupBox3 As GroupBox
 End Class
