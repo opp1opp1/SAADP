@@ -112,4 +112,10 @@
     Private Sub Admin8_Click(sender As Object, e As EventArgs) Handles Admin8.Click
 
     End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        RichTextBox1.Text = "套餐折價" + vbCrLf + RichTextBox1.Text
+
+        Price.Text = -5 + Val(Price.Text)
+    End Sub
 End Class
