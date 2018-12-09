@@ -403,7 +403,7 @@ Partial Class Form1
         Me.GroupBox4.Size = New System.Drawing.Size(1824, 303)
         Me.GroupBox4.TabIndex = 8
         Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "漢堡類"
+        Me.GroupBox4.Text = "蛋餅類"
         '
         'Eggroll8
         '
@@ -489,7 +489,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(2164, 1266)
+        Me.ClientSize = New System.Drawing.Size(1924, 1050)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Button2)
@@ -500,7 +500,7 @@ Partial Class Form1
         Me.Controls.Add(Me.GroupBox1)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximumSize = New System.Drawing.Size(2869, 1589)
-        Me.MinimumSize = New System.Drawing.Size(2083, 1217)
+        Me.MinimumSize = New System.Drawing.Size(1918, 1018)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
