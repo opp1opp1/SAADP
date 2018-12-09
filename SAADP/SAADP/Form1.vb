@@ -147,11 +147,11 @@
     End Sub
 
     Private Sub Admin7_Click(sender As Object, e As EventArgs) Handles Admin7.Click
-
+        RichTextBox1.Text = "(" + Admin7.Text + ")" + vbCrLf + RichTextBox1.Text '將豆漿輸入在品項'
     End Sub
 
     Private Sub Admin8_Click(sender As Object, e As EventArgs) Handles Admin8.Click
-
+        RichTextBox1.Text = "(" + Admin8.Text + ")" + vbCrLf + RichTextBox1.Text '將豆漿輸入在品項'
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
