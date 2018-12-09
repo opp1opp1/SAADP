@@ -155,14 +155,14 @@
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
-        RichTextBox1.Text = "套餐折價" + vbCrLf + RichTextBox1.Text
-
         Price.Text = -5 + Val(Price.Text)
+        '檢查此操作是否會讓值為負，如果會令值為零'
+        If Val(Price.Text) < 0 Then
+            Price.Text = 0
+        Else RichTextBox1.Text = "套餐折價" + vbCrLf + RichTextBox1.Text '如果不為負 則新增套餐折價在品項上'
+        End If
     End Sub
-
-    Private Sub GroupBox4_Enter(sender As Object, e As EventArgs) Handles GroupBox4.Enter
-    End Sub
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-        check_out.Show()
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click '按下結帳按鈕'
+        check_out.Show() '跳出結帳視窗'
     End Sub
 End Class
