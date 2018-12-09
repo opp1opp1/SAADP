@@ -56,25 +56,25 @@
     End Sub
 
     Private Sub Drink1_Click(sender As Object, e As EventArgs) Handles Drink1.Click
-        RichTextBox1.Text = Drink1.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+        RichTextBox1.Text = Drink1.Text + vbCrLf + RichTextBox1.Text '將奶茶輸入在品項'
 
         Price.Text = 35 + Val(Price.Text)
     End Sub
 
     Private Sub Drink2_Click(sender As Object, e As EventArgs) Handles Drink2.Click
-        RichTextBox1.Text = Drink2.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+        RichTextBox1.Text = Drink2.Text + vbCrLf + RichTextBox1.Text '將紅茶輸入在品項'
 
         Price.Text = 35 + Val(Price.Text)
     End Sub
 
     Private Sub Drink3_Click(sender As Object, e As EventArgs) Handles Drink3.Click
-        RichTextBox1.Text = Drink3.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+        RichTextBox1.Text = Drink3.Text + vbCrLf + RichTextBox1.Text '將綠茶輸入在品項'
 
         Price.Text = 35 + Val(Price.Text)
     End Sub
 
     Private Sub Drink4_Click(sender As Object, e As EventArgs) Handles Drink4.Click
-        RichTextBox1.Text = Drink4.Text + vbCrLf + RichTextBox1.Text '將總匯輸入在品項'
+        RichTextBox1.Text = Drink4.Text + vbCrLf + RichTextBox1.Text '將柳橙汁輸入在品項'
 
         Price.Text = 35 + Val(Price.Text)
     End Sub
