@@ -23,7 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Burger8 = New System.Windows.Forms.Button()
         Me.Burger7 = New System.Windows.Forms.Button()
         Me.Burger6 = New System.Windows.Forms.Button()
@@ -58,7 +57,6 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button3)
         Me.GroupBox1.Controls.Add(Me.Burger8)
         Me.GroupBox1.Controls.Add(Me.Burger7)
         Me.GroupBox1.Controls.Add(Me.Burger6)
@@ -74,15 +72,6 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "漢堡類"
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(3, 32)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
         '
         'Burger8
         '
@@ -367,6 +356,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.MaximumSize = New System.Drawing.Size(1920, 1080)
+        Me.MinimumSize = New System.Drawing.Size(1856, 1078)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
@@ -395,7 +386,6 @@ Partial Class Form1
     Friend WithEvents Burger7 As Button
     Friend WithEvents Drink5 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
     Friend WithEvents Admin1 As Button
     Friend WithEvents Admin2 As Button
     Friend WithEvents Admin3 As Button
