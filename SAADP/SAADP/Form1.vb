@@ -86,11 +86,11 @@
     End Sub
 
     Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click
-
+        Price.Text = 0
     End Sub
 
     Private Sub Admin3_Click(sender As Object, e As EventArgs) Handles Admin3.Click
-
+        Form2.Show()
     End Sub
 
     Private Sub Admin4_Click(sender As Object, e As EventArgs) Handles Admin4.Click
@@ -98,7 +98,7 @@
     End Sub
 
     Private Sub Admin5_Click(sender As Object, e As EventArgs) Handles Admin5.Click
-
+        Price.Text = Val(Price.Text) / 2
     End Sub
 
     Private Sub Admin6_Click(sender As Object, e As EventArgs) Handles Admin6.Click
