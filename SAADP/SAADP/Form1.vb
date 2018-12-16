@@ -1,4 +1,6 @@
 ﻿Public Class Form1
+    Dim employee_meal As Boolean = False
+    Dim Promo_Item As Boolean = False
     Private Sub Burger1_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'
 
@@ -83,8 +85,11 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click '按下結帳按鈕'
+        check_out.Show() '跳出結帳視窗'
         RichTextBox1.Text = "" '清空品項'
         Price.Text = "" '清空價錢'
+        employee_meal = False '重設是否按過員餐'
+        Promo_Item = False '重設是否為招待物品'
     End Sub
 
     Private Sub Drink1_Click(sender As Object, e As EventArgs) Handles Drink1.Click '按下奶茶'
@@ -117,17 +122,26 @@
         Price.Text = 15 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
-    Private Sub GroupBox3_Enter(sender As Object, e As EventArgs) Handles GroupBox3.Enter
-
-    End Sub
-
     Private Sub Admin1_Click(sender As Object, e As EventArgs) Handles Admin1.Click
         RichTextBox1.Text = "" '清空品項'
         Price.Text = "" '清空價錢'
+        employee_meal = False '重設是否按過員餐'
+        Promo_Item = False '重設是否為招待物品'
     End Sub
 
-    Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click
-        Price.Text = 0
+    Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click '按下PROMO按鈕'
+
+        If Promo_Item Then '已按過員餐的話'
+            MsgBox("此餐點已為招待餐點") '跳出提示畫面'
+        ElseIf employee_meal Then
+            MsgBox("此餐點已為員工餐") '跳出提示畫面'
+        ElseIf Promo_Item = False Then   '判斷是否已按過PROMO'
+            Price.Text = 0 '未按過的話 做折價處理'
+            Promo_Item = True  '將PROMO變數設為TRUE'
+            RichTextBox1.Text = "Promo" + vbCrLf + RichTextBox1.Text '將PROMO輸入進品項內'
+        Else
+            MsgBox("發生意外請聯絡程式開發人員並詳述您遭遇的問題") '處理意外'
+        End If
     End Sub
 
     Private Sub Admin3_Click(sender As Object, e As EventArgs) Handles Admin3.Click
@@ -138,8 +152,19 @@
 
     End Sub
 
-    Private Sub Admin5_Click(sender As Object, e As EventArgs) Handles Admin5.Click
-        Price.Text = Val(Price.Text) / 2
+    Private Sub Admin5_Click(sender As Object, e As EventArgs) Handles Admin5.Click '按下員工餐按鈕'
+
+        If employee_meal Then '已按過員餐的話'
+            MsgBox("此餐點已為員工餐") '跳出提示畫面'
+        ElseIf Promo_Item = True Then
+            MsgBox("此餐點已為招待餐點") '跳出提示畫面'
+        ElseIf employee_meal = False Then   '判斷是否已按過員工餐'
+            Price.Text = Val(Price.Text) / 2 '未按過的話 做折價處理'
+            employee_meal = True  '將員餐變數設為TRUE'
+            RichTextBox1.Text = "員餐" + vbCrLf + RichTextBox1.Text '將員餐輸入進品項內'
+        Else
+            MsgBox("發生意外請聯絡程式開發人員並詳述您遭遇的問題") '處理意外'
+        End If
     End Sub
 
     Private Sub Admin6_Click(sender As Object, e As EventArgs) Handles Admin6.Click
@@ -147,11 +172,11 @@
     End Sub
 
     Private Sub Admin7_Click(sender As Object, e As EventArgs) Handles Admin7.Click
-        RichTextBox1.Text = "(" + Admin7.Text + ")" + vbCrLf + RichTextBox1.Text '將豆漿輸入在品項'
+        RichTextBox1.Text = "(" + Admin7.Text + ")" + vbCrLf + RichTextBox1.Text '將內用輸入在品項'
     End Sub
 
     Private Sub Admin8_Click(sender As Object, e As EventArgs) Handles Admin8.Click
-        RichTextBox1.Text = "(" + Admin8.Text + ")" + vbCrLf + RichTextBox1.Text '將豆漿輸入在品項'
+        RichTextBox1.Text = "(" + Admin8.Text + ")" + vbCrLf + RichTextBox1.Text '將外帶輸入在品項'
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
@@ -161,8 +186,5 @@
             Price.Text = 0
         Else RichTextBox1.Text = "套餐折價" + vbCrLf + RichTextBox1.Text '如果不為負 則新增套餐折價在品項上'
         End If
-    End Sub
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click '按下結帳按鈕'
-        check_out.Show() '跳出結帳視窗'
     End Sub
 End Class
