@@ -157,8 +157,8 @@
         Form2.Show() '顯示管理組選項視窗'
     End Sub
 
-    Private Sub Admin4_Click(sender As Object, e As EventArgs) Handles Admin4.Click
-
+    Private Sub Admin4_Click(sender As Object, e As EventArgs) Handles Admin4.Click '按下查看上筆按鈕'
+        check_out.Show() '跳出結帳視窗'
     End Sub
 
     Private Sub Admin5_Click(sender As Object, e As EventArgs) Handles Admin5.Click '按下員工餐按鈕'
