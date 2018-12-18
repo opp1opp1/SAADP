@@ -308,12 +308,12 @@ Partial Class Form1
         '
         'Admin6
         '
-        Me.Admin6.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin6.Font = New System.Drawing.Font("微軟正黑體", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.Admin6.Location = New System.Drawing.Point(127, 213)
         Me.Admin6.Name = "Admin6"
         Me.Admin6.Size = New System.Drawing.Size(80, 80)
         Me.Admin6.TabIndex = 11
-        Me.Admin6.Text = "On9"
+        Me.Admin6.Text = "輸入管理密碼"
         Me.Admin6.UseVisualStyleBackColor = True
         '
         'Admin7

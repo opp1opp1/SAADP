@@ -3,7 +3,9 @@
     Dim Promo_Item As Boolean = False 'Promo變數'
     Public checkout_detail As String '結帳時的品項'
     Public checkout_price As Integer '結帳時的金額'
-    Public FHOTG As String  '是否內用變數'
+    Dim FHOTG As String  '是否內用變數'
+    Public Admin_password As Integer = 199 '管理員密碼，暫時為199' 
+    Public Admin_OrNot = False '是否輸入過管理員密碼'
     Private Sub Burger1_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'
 
@@ -90,35 +92,22 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click '按下結帳按鈕'
         If FHOTG = "" Then
             MsgBox("尚未選取外帶內用") '跳出提示畫面'
-        ElseIf Promo_Item Then '已按過PROMO的話'
-            Price.Text = 0 '免費處理'
-            checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
-            checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
-            check_out.Show() '跳出結帳視窗'
-            RichTextBox1.Text = "" '清空品項'
-            Price.Text = "" '清空價錢'
-            employee_meal = False '重設是否按過員餐'
-            Promo_Item = False '重設是否為招待物品'
-            FHOTG = "" '重設外帶內用變數'
-        ElseIf employee_meal Then '已按過員餐的話'
-            Price.Text = Val(Price.Text) / 2 '做折價處理'
-            checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
-            checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
-            check_out.Show() '跳出結帳視窗'
-            RichTextBox1.Text = "" '清空品項'
-            Price.Text = "" '清空價錢'
-            employee_meal = False '重設是否按過員餐'
-            Promo_Item = False '重設是否為招待物品'
-            FHOTG = "" '重設外帶內用變數'
         Else
-            checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
-            checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
-            check_out.Show() '跳出結帳視窗'
-            RichTextBox1.Text = "" '清空品項'
-            Price.Text = "" '清空價錢'
-            employee_meal = False '重設是否按過員餐'
-            Promo_Item = False '重設是否為招待物品'
-            FHOTG = "" '重設外帶內用變數'
+            If Promo_Item Then '已按過PROMO的話'
+                Price.Text = 0 '免費處理'
+            ElseIf employee_meal Then '已按過員餐的話'
+                Price.Text = Val(Price.Text) / 2 '做折價處理'
+            Else
+                checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
+                checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
+                check_out.Show() '跳出結帳視窗'
+                RichTextBox1.Text = "" '清空品項'
+                Price.Text = "" '清空價錢'
+                employee_meal = False '重設是否按過員餐'
+                Promo_Item = False '重設是否為招待物品'
+                FHOTG = "" '重設外帶內用變數'
+                Admin_OrNot = False '重設是否為管理員'
+            End If
         End If
     End Sub
 
@@ -158,6 +147,7 @@
         employee_meal = False '重設是否按過員餐'
         Promo_Item = False '重設是否為招待物品'
         FHOTG = "" '重設外帶內用變數'
+        Admin_OrNot = False '重設是否為管理員'
     End Sub
 
     Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click '按下PROMO按鈕'
@@ -183,21 +173,25 @@
     End Sub
 
     Private Sub Admin5_Click(sender As Object, e As EventArgs) Handles Admin5.Click '按下員工餐按鈕'
-
-        If employee_meal Then '已按過員餐的話'
-            MsgBox("此餐點已為員工餐") '跳出提示畫面'
-        ElseIf Promo_Item = True Then
-            MsgBox("此餐點已為招待餐點") '跳出提示畫面'
-        ElseIf employee_meal = False Then   '判斷是否已按過員工餐'
-            employee_meal = True  '將員餐變數設為TRUE'
-            RichTextBox1.Text = "員餐" + vbCrLf + RichTextBox1.Text '將員餐輸入進品項內'
+        If Admin_OrNot = True Then '判斷是否已按下管理員密碼按鈕'
+            If employee_meal Then '已按過員餐的話'
+                MsgBox("此餐點已為員工餐") '跳出提示畫面'
+            ElseIf Promo_Item = True Then
+                MsgBox("此餐點已為招待餐點") '跳出提示畫面'
+            ElseIf employee_meal = False Then   '判斷是否已按過員工餐'
+                employee_meal = True  '將員餐變數設為TRUE'
+                RichTextBox1.Text = "員餐" + vbCrLf + RichTextBox1.Text '將員餐輸入進品項內'
+            Else
+                MsgBox("發生意外請聯絡程式開發人員並詳述您遭遇的問題") '處理意外'
+            End If
         Else
-            MsgBox("發生意外請聯絡程式開發人員並詳述您遭遇的問題") '處理意外'
+            MsgBox("請輸入管理員密碼!請輸入管理員密碼後再試一次！") '若未按下則跳轉至輸入密碼視窗'
+            AdminPassword.Show()
         End If
     End Sub
 
-    Private Sub Admin6_Click(sender As Object, e As EventArgs) Handles Admin6.Click
-
+    Private Sub Admin6_Click(sender As Object, e As EventArgs) Handles Admin6.Click '按下輸入管理密碼按鈕'
+        AdminPassword.Show() '跳轉至輸入密碼視窗'
     End Sub
 
     Private Sub Admin7_Click(sender As Object, e As EventArgs) Handles Admin7.Click '按下外帶按鈕'
