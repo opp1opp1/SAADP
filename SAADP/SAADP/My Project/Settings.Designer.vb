@@ -54,36 +54,16 @@ Namespace My
             End Get
         End Property
         
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("server=36.233.253.38;user id=a0012;password=pwd0012;persistsecurityinfo=True;data"& _ 
-            "base=test")>  _
-        Public ReadOnly Property testConnectionString() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("199")>  _
+        Public Property Admin_Password() As Integer
             Get
-                Return CType(Me("testConnectionString"),String)
+                Return CType(Me("Admin_Password"),Integer)
             End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("server=36.233.253.38;user id=a0012;password=pwd0012;database=test")>  _
-        Public ReadOnly Property testConnectionString1() As String
-            Get
-                Return CType(Me("testConnectionString1"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("persistsecurityinfo=True;server=36.233.253.38;user id=a0012;password=pwd0012;data"& _ 
-            "base=test")>  _
-        Public ReadOnly Property testConnectionString2() As String
-            Get
-                Return CType(Me("testConnectionString2"),String)
-            End Get
+            Set
+                Me("Admin_Password") = value
+            End Set
         End Property
     End Class
 End Namespace

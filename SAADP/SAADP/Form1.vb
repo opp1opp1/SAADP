@@ -4,7 +4,7 @@
     Public checkout_detail As String '結帳時的品項'
     Public checkout_price As Integer '結帳時的金額'
     Dim FHOTG As String  '是否內用變數'
-    Public Admin_password As Integer = 199 '管理員密碼，暫時為199' 
+    Public Admin_password As Integer = Val(My.Settings.Admin_Password) '管理員密碼，暫時為199' 
     Public Admin_OrNot = False '是否輸入過管理員密碼'
     Private Sub Burger1_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'

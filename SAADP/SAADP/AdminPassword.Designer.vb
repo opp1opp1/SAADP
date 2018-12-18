@@ -53,9 +53,9 @@ Partial Class AdminPassword
         Me.GroupBox1.Controls.Add(Me.Num3)
         Me.GroupBox1.Controls.Add(Me.Num2)
         Me.GroupBox1.Controls.Add(Me.Num1)
-        Me.GroupBox1.Location = New System.Drawing.Point(13, 159)
+        Me.GroupBox1.Location = New System.Drawing.Point(13, 144)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(298, 279)
+        Me.GroupBox1.Size = New System.Drawing.Size(317, 445)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "密碼"
@@ -63,9 +63,9 @@ Partial Class AdminPassword
         'Button_enter
         '
         Me.Button_enter.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Button_enter.Location = New System.Drawing.Point(205, 219)
+        Me.Button_enter.Location = New System.Drawing.Point(217, 345)
         Me.Button_enter.Name = "Button_enter"
-        Me.Button_enter.Size = New System.Drawing.Size(93, 60)
+        Me.Button_enter.Size = New System.Drawing.Size(100, 100)
         Me.Button_enter.TabIndex = 0
         Me.Button_enter.Text = "輸入"
         Me.Button_enter.UseVisualStyleBackColor = True
@@ -73,9 +73,9 @@ Partial Class AdminPassword
         'Button_clear
         '
         Me.Button_clear.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Button_clear.Location = New System.Drawing.Point(104, 219)
+        Me.Button_clear.Location = New System.Drawing.Point(111, 345)
         Me.Button_clear.Name = "Button_clear"
-        Me.Button_clear.Size = New System.Drawing.Size(93, 60)
+        Me.Button_clear.Size = New System.Drawing.Size(100, 100)
         Me.Button_clear.TabIndex = 0
         Me.Button_clear.Text = "清除"
         Me.Button_clear.UseVisualStyleBackColor = True
@@ -83,9 +83,9 @@ Partial Class AdminPassword
         'Num0
         '
         Me.Num0.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num0.Location = New System.Drawing.Point(6, 219)
+        Me.Num0.Location = New System.Drawing.Point(0, 345)
         Me.Num0.Name = "Num0"
-        Me.Num0.Size = New System.Drawing.Size(93, 60)
+        Me.Num0.Size = New System.Drawing.Size(100, 100)
         Me.Num0.TabIndex = 0
         Me.Num0.Text = "0"
         Me.Num0.UseVisualStyleBackColor = True
@@ -93,9 +93,9 @@ Partial Class AdminPassword
         'Num9
         '
         Me.Num9.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num9.Location = New System.Drawing.Point(206, 153)
+        Me.Num9.Location = New System.Drawing.Point(217, 233)
         Me.Num9.Name = "Num9"
-        Me.Num9.Size = New System.Drawing.Size(92, 60)
+        Me.Num9.Size = New System.Drawing.Size(100, 100)
         Me.Num9.TabIndex = 0
         Me.Num9.Text = "9"
         Me.Num9.UseVisualStyleBackColor = True
@@ -103,9 +103,9 @@ Partial Class AdminPassword
         'Num8
         '
         Me.Num8.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num8.Location = New System.Drawing.Point(104, 153)
+        Me.Num8.Location = New System.Drawing.Point(111, 233)
         Me.Num8.Name = "Num8"
-        Me.Num8.Size = New System.Drawing.Size(93, 60)
+        Me.Num8.Size = New System.Drawing.Size(100, 100)
         Me.Num8.TabIndex = 0
         Me.Num8.Text = "8"
         Me.Num8.UseVisualStyleBackColor = True
@@ -113,9 +113,9 @@ Partial Class AdminPassword
         'Num7
         '
         Me.Num7.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num7.Location = New System.Drawing.Point(6, 153)
+        Me.Num7.Location = New System.Drawing.Point(0, 233)
         Me.Num7.Name = "Num7"
-        Me.Num7.Size = New System.Drawing.Size(92, 60)
+        Me.Num7.Size = New System.Drawing.Size(100, 100)
         Me.Num7.TabIndex = 0
         Me.Num7.Text = "7"
         Me.Num7.UseVisualStyleBackColor = True
@@ -123,9 +123,9 @@ Partial Class AdminPassword
         'Num6
         '
         Me.Num6.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num6.Location = New System.Drawing.Point(206, 87)
+        Me.Num6.Location = New System.Drawing.Point(217, 127)
         Me.Num6.Name = "Num6"
-        Me.Num6.Size = New System.Drawing.Size(92, 60)
+        Me.Num6.Size = New System.Drawing.Size(100, 100)
         Me.Num6.TabIndex = 0
         Me.Num6.Text = "6"
         Me.Num6.UseVisualStyleBackColor = True
@@ -133,9 +133,9 @@ Partial Class AdminPassword
         'Num5
         '
         Me.Num5.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num5.Location = New System.Drawing.Point(104, 87)
+        Me.Num5.Location = New System.Drawing.Point(111, 127)
         Me.Num5.Name = "Num5"
-        Me.Num5.Size = New System.Drawing.Size(93, 60)
+        Me.Num5.Size = New System.Drawing.Size(100, 100)
         Me.Num5.TabIndex = 0
         Me.Num5.Text = "5"
         Me.Num5.UseVisualStyleBackColor = True
@@ -143,9 +143,9 @@ Partial Class AdminPassword
         'Num4
         '
         Me.Num4.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num4.Location = New System.Drawing.Point(6, 87)
+        Me.Num4.Location = New System.Drawing.Point(0, 127)
         Me.Num4.Name = "Num4"
-        Me.Num4.Size = New System.Drawing.Size(92, 60)
+        Me.Num4.Size = New System.Drawing.Size(100, 100)
         Me.Num4.TabIndex = 0
         Me.Num4.Text = "4"
         Me.Num4.UseVisualStyleBackColor = True
@@ -153,9 +153,9 @@ Partial Class AdminPassword
         'Num3
         '
         Me.Num3.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num3.Location = New System.Drawing.Point(206, 21)
+        Me.Num3.Location = New System.Drawing.Point(217, 21)
         Me.Num3.Name = "Num3"
-        Me.Num3.Size = New System.Drawing.Size(92, 60)
+        Me.Num3.Size = New System.Drawing.Size(100, 100)
         Me.Num3.TabIndex = 0
         Me.Num3.Text = "3"
         Me.Num3.UseVisualStyleBackColor = True
@@ -163,9 +163,9 @@ Partial Class AdminPassword
         'Num2
         '
         Me.Num2.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num2.Location = New System.Drawing.Point(104, 21)
+        Me.Num2.Location = New System.Drawing.Point(111, 21)
         Me.Num2.Name = "Num2"
-        Me.Num2.Size = New System.Drawing.Size(93, 60)
+        Me.Num2.Size = New System.Drawing.Size(100, 100)
         Me.Num2.TabIndex = 0
         Me.Num2.Text = "2"
         Me.Num2.UseVisualStyleBackColor = True
@@ -173,9 +173,9 @@ Partial Class AdminPassword
         'Num1
         '
         Me.Num1.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num1.Location = New System.Drawing.Point(6, 21)
+        Me.Num1.Location = New System.Drawing.Point(0, 21)
         Me.Num1.Name = "Num1"
-        Me.Num1.Size = New System.Drawing.Size(92, 60)
+        Me.Num1.Size = New System.Drawing.Size(100, 100)
         Me.Num1.TabIndex = 0
         Me.Num1.Text = "1"
         Me.Num1.UseVisualStyleBackColor = True
@@ -189,7 +189,7 @@ Partial Class AdminPassword
         Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.RichTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
-        Me.RichTextBox1.Size = New System.Drawing.Size(298, 96)
+        Me.RichTextBox1.Size = New System.Drawing.Size(317, 96)
         Me.RichTextBox1.TabIndex = 1
         Me.RichTextBox1.Text = ""
         '
@@ -197,7 +197,7 @@ Partial Class AdminPassword
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(323, 450)
+        Me.ClientSize = New System.Drawing.Size(342, 601)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "AdminPassword"
