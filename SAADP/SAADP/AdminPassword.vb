@@ -40,6 +40,7 @@
             Close()
         Else
             MsgBox("密碼錯誤，請詢問管理組最新的密碼！") '提示密碼錯誤'
+            RichTextBox1.Text = "" '清除已輸入的密碼'
         End If
     End Sub
 End Class

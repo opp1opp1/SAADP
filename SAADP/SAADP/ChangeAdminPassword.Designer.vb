@@ -41,8 +41,11 @@ Partial Class ChangeAdminPassword
         '
         'RichTextBox1
         '
+        Me.RichTextBox1.Font = New System.Drawing.Font("微軟正黑體", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.RichTextBox1.Location = New System.Drawing.Point(13, 13)
         Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.ReadOnly = True
+        Me.RichTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.RichTextBox1.Size = New System.Drawing.Size(317, 96)
         Me.RichTextBox1.TabIndex = 0
         Me.RichTextBox1.Text = ""

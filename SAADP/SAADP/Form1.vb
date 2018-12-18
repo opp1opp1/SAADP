@@ -4,7 +4,7 @@
     Public checkout_detail As String '結帳時的品項'
     Public checkout_price As Integer '結帳時的金額'
     Dim FHOTG As String  '是否內用變數'
-    Public Admin_password As Integer = Val(My.Settings.Admin_Password) '管理員密碼，暫時為199' 
+    Public Admin_password As Integer = Val(My.Settings.Admin_Password) '管理員密碼' 
     Public Admin_OrNot = False '是否輸入過管理員密碼'
     Private Sub Burger1_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'
@@ -183,7 +183,12 @@
     End Sub
 
     Private Sub Admin3_Click(sender As Object, e As EventArgs) Handles Admin3.Click '按下管理組選項按鈕'
-        Form2.Show() '顯示管理組選項視窗'
+        If Admin_OrNot = True Then '判斷是否已按下管理員密碼按鈕'
+            Form2.Show() '顯示管理組選項視窗'
+        Else
+            MsgBox("請輸入管理員密碼!請輸入管理員密碼後再試一次！") '若未按下則跳轉至輸入密碼視窗'
+            AdminPassword.Show()
+        End If
     End Sub
 
     Private Sub Admin4_Click(sender As Object, e As EventArgs) Handles Admin4.Click '按下查看上筆按鈕'

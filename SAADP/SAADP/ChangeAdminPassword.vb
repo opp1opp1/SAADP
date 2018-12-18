@@ -40,6 +40,7 @@
         Else
             Form1.Admin_password = Val(RichTextBox1.Text)  '更改密碼'
             My.Settings.Admin_Password = Val(RichTextBox1.Text)  '更改密碼'
+            Close()
         End If
     End Sub
 End Class
