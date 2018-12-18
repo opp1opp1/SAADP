@@ -3,6 +3,7 @@
     Dim Promo_Item As Boolean = False 'Promo變數'
     Public checkout_detail As String '結帳時的品項'
     Public checkout_price As Integer '結帳時的金額'
+    Public FHOTG As String  '是否內用變數'
     Private Sub Burger1_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'
 
@@ -87,19 +88,38 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click '按下結帳按鈕'
-        If Promo_Item Then '已按過PROMO的話'
+        If FHOTG = "" Then
+            MsgBox("尚未選取外帶內用") '跳出提示畫面'
+        ElseIf Promo_Item Then '已按過PROMO的話'
             Price.Text = 0 '免費處理'
+            checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
+            checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
+            check_out.Show() '跳出結帳視窗'
+            RichTextBox1.Text = "" '清空品項'
+            Price.Text = "" '清空價錢'
+            employee_meal = False '重設是否按過員餐'
+            Promo_Item = False '重設是否為招待物品'
+            FHOTG = "" '重設外帶內用變數'
         ElseIf employee_meal Then '已按過員餐的話'
             Price.Text = Val(Price.Text) / 2 '做折價處理'
+            checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
+            checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
+            check_out.Show() '跳出結帳視窗'
+            RichTextBox1.Text = "" '清空品項'
+            Price.Text = "" '清空價錢'
+            employee_meal = False '重設是否按過員餐'
+            Promo_Item = False '重設是否為招待物品'
+            FHOTG = "" '重設外帶內用變數'
         Else
+            checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
+            checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
+            check_out.Show() '跳出結帳視窗'
+            RichTextBox1.Text = "" '清空品項'
+            Price.Text = "" '清空價錢'
+            employee_meal = False '重設是否按過員餐'
+            Promo_Item = False '重設是否為招待物品'
+            FHOTG = "" '重設外帶內用變數'
         End If
-        checkout_detail = RichTextBox1.Text '儲存品項至checkout_detail變數內'
-        checkout_price = Val(Price.Text) '儲存價錢至checkout_price變數內'
-        check_out.Show() '跳出結帳視窗'
-        RichTextBox1.Text = "" '清空品項'
-        Price.Text = "" '清空價錢'
-        employee_meal = False '重設是否按過員餐'
-        Promo_Item = False '重設是否為招待物品'
     End Sub
 
     Private Sub Drink1_Click(sender As Object, e As EventArgs) Handles Drink1.Click '按下奶茶'
@@ -137,6 +157,7 @@
         Price.Text = "" '清空價錢'
         employee_meal = False '重設是否按過員餐'
         Promo_Item = False '重設是否為招待物品'
+        FHOTG = "" '重設外帶內用變數'
     End Sub
 
     Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click '按下PROMO按鈕'
@@ -179,12 +200,28 @@
 
     End Sub
 
-    Private Sub Admin7_Click(sender As Object, e As EventArgs) Handles Admin7.Click '按下內用按鈕'
-        RichTextBox1.Text = "(" + Admin7.Text + ")" + vbCrLf + RichTextBox1.Text '將內用輸入在品項'
+    Private Sub Admin7_Click(sender As Object, e As EventArgs) Handles Admin7.Click '按下外帶按鈕'
+        If FHOTG = "FH" Then '如果已按下內用'
+            FHOTG = "TG" '修改變數為外帶'
+            RichTextBox1.Text = RichTextBox1.Text.Replace(Admin8.Text, Admin7.Text) '取代原有的內用品項'
+        ElseIf FHOTG = "TG" Then '如果已按下外帶'
+            MsgBox("此餐點已經外帶") '跳出提示畫面'
+        Else '如果第一次按下'
+            FHOTG = "TG" '修改變數為外帶'
+            RichTextBox1.Text = Admin7.Text + vbCrLf + RichTextBox1.Text '將外帶輸入在品項'
+        End If
     End Sub
 
-    Private Sub Admin8_Click(sender As Object, e As EventArgs) Handles Admin8.Click '按下外帶按鈕'
-        RichTextBox1.Text = "(" + Admin8.Text + ")" + vbCrLf + RichTextBox1.Text '將外帶輸入在品項'
+    Private Sub Admin8_Click(sender As Object, e As EventArgs) Handles Admin8.Click '按下內用按鈕'
+        If FHOTG = "TG" Then '如果已按下外帶'
+            FHOTG = "FH" '修改變數為內用'
+            RichTextBox1.Text = RichTextBox1.Text.Replace(Admin7.Text, Admin8.Text) '取代原有的外帶品項'
+        ElseIf FHOTG = "FH" Then '如果已按下內用'
+            MsgBox("此餐點已經內用") '跳出提示畫面'
+        Else
+            FHOTG = "FH" '如果第一次按下'
+            RichTextBox1.Text = Admin8.Text + vbCrLf + RichTextBox1.Text '將外帶輸入在品項'
+        End If
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click '按下套餐飲料折價按鈕'
