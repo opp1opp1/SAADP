@@ -22,9 +22,30 @@ Partial Class Form2
     '請勿使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Button1.Location = New System.Drawing.Point(13, 13)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(120, 120)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "更改管理員密碼"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Form2
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
+        Me.Name = "Form2"
         Me.Text = "Form2"
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents Button1 As Button
 End Class
