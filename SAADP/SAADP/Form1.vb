@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Public Class Form1
     Dim employee_meal As Boolean = False '員餐變數'
     Dim Promo_Item As Boolean = False 'Promo變數'
     Public checkout_detail As String '結帳時的品項'
@@ -260,5 +262,18 @@
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
 
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim Source As String ' 宣告連線的字串
+        Source = "Data Source=.\SQLEXPRESS;" ' 伺服器
+        Source += "AttachDbFilename=|DataDirectory|\Database1.mdf;" ' 資料庫路徑與名稱
+        Source += "Integrated Security=True;" ' 登入的帳號認證
+        Source += "User Instance=True" ' 新使用者執行
+        Dim conn As SqlConnection ' 宣告連線的物件
+        conn = New SqlConnection(Source) ' 連線
+        conn.Open() '開啟資料庫
+        MsgBox("成功連結到SQL Express 的伺服器")
+        conn.Close() '關閉資料庫
     End Sub
 End Class
