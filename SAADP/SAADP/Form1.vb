@@ -9,9 +9,13 @@ Public Class Form1
     Public Admin_password As Integer = Val(My.Settings.Admin_Password) '管理員密碼' 
     Public Admin_OrNot = False '是否輸入過管理員密碼'
     Private Sub Burger1_Click(sender As Object, e As EventArgs) Handles Burger1.Click '按下卡啦雞腿堡' 
+
+        Call Module2.Selection(Burger1.Text, 45)
+
         RichTextBox1.Text = Burger1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞腿堡輸入在品項'
 
         Price.Text = 45 + Val(Price.Text)  '輸入價錢 價錢為45 由於Price的文字是字串所以先轉換成數字'
+
 
     End Sub
     Private Sub Burger2_Click(sender As Object, e As EventArgs) Handles Burger2.Click '按下玉米蛋堡'
