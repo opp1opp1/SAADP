@@ -43,4 +43,26 @@ Module Module2
         'End If
 
     End Sub
+
+    Sub Clear()
+        Call Connection()
+
+        Dim sql As New SQLiteCommand
+
+        sql.Connection = Conn
+
+        sql = Conn.CreateCommand()
+
+        sql.CommandText = "DELETE FROM 'Order' ;"
+        Dim result As Integer = sql.ExecuteNonQuery()
+        If result <> 0 Then
+
+            MsgBox("删除成功")
+
+        Else
+            MsgBox("删除失敗")
+
+        End If
+
+    End Sub
 End Module

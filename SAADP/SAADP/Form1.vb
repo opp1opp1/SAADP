@@ -192,6 +192,7 @@ Public Class Form1
         Promo_Item = False '重設是否為招待物品'
         FHOTG = "" '重設外帶內用變數'
         Admin_OrNot = False '重設是否為管理員'
+        Call Module2.Clear() '清除Order'
     End Sub
 
     Private Sub Admin2_Click(sender As Object, e As EventArgs) Handles Admin2.Click '按下PROMO按鈕'
