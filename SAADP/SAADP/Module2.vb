@@ -7,7 +7,7 @@ Module Module2
 
         'If Conn.State <> ConnectionState.Open Then
 
-        'Conn.Open()
+        Conn.Open()
 
         'MsgBox("打开成功！")
 

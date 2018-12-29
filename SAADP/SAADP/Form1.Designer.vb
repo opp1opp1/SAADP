@@ -81,7 +81,6 @@ Partial Class Form1
         Me.Eggroll3 = New System.Windows.Forms.Button()
         Me.Eggroll2 = New System.Windows.Forms.Button()
         Me.Eggroll1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -719,22 +718,12 @@ Partial Class Form1
         Me.Eggroll1.Text = "卡啦雞蛋餅"
         Me.Eggroll1.UseVisualStyleBackColor = True
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(976, 528)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(214, 89)
-        Me.Button3.TabIndex = 16
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Button2)
@@ -834,5 +823,4 @@ Partial Class Form1
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
-    Friend WithEvents Button3 As Button
 End Class

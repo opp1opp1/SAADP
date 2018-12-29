@@ -19,77 +19,92 @@ Public Class Form1
 
     End Sub
     Private Sub Burger2_Click(sender As Object, e As EventArgs) Handles Burger2.Click '按下玉米蛋堡'
+        Call Module2.Selection(Burger2.Text, 25)
         RichTextBox1.Text = Burger2.Text + vbCrLf + RichTextBox1.Text '將玉米蛋堡輸入在品項'
 
         Price.Text = 25 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Burger3_Click(sender As Object, e As EventArgs) Handles Burger3.Click '按下肉鬆蛋堡'
+        Call Module2.Selection(Burger3.Text, 25)
         RichTextBox1.Text = Burger3.Text + vbCrLf + RichTextBox1.Text '將肉鬆蛋堡輸入在品項'
 
         Price.Text = 25 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Burger4_Click(sender As Object, e As EventArgs) Handles Burger4.Click '按下豬肉蛋堡'
+        Call Module2.Selection(Burger4.Text, 30)
         RichTextBox1.Text = Burger4.Text + vbCrLf + RichTextBox1.Text '將豬肉蛋堡輸入在品項'
 
         Price.Text = 30 + Val(Price.Text) '輸入價錢 價錢為30 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Burger5_Click(sender As Object, e As EventArgs) Handles Burger5.Click '按下烤肉蛋堡'
+        Call Module2.Selection(Burger5.Text, 35)
         RichTextBox1.Text = Burger5.Text + vbCrLf + RichTextBox1.Text '將烤肉蛋堡輸入在品項'
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Burger6_Click(sender As Object, e As EventArgs) Handles Burger6.Click '按下香雞蛋堡'
+        Call Module2.Selection(Burger6.Text, 35)
         RichTextBox1.Text = Burger6.Text + vbCrLf + RichTextBox1.Text '將香雞蛋堡輸入在品項'
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Burger7_Click(sender As Object, e As EventArgs) Handles Burger7.Click  '按下牛肉蛋堡'
+        Call Module2.Selection(Burger7.Text, 35)
         RichTextBox1.Text = Burger7.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋堡輸入在品項'
 
         Price.Text = 35 + Val(Price.Text) '輸入價錢 價錢為35 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Burger8_Click(sender As Object, e As EventArgs) Handles Burger8.Click  '按下總匯蛋堡 '
+        Call Module2.Selection(Burger8.Text, 40)
         RichTextBox1.Text = Burger8.Text + vbCrLf + RichTextBox1.Text '將總匯蛋堡輸入在品項'
 
         Price.Text = 40 + Val(Price.Text) '輸入價錢 價錢為40 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
     Private Sub Eggroll1_Click(sender As Object, e As EventArgs) Handles Eggroll1.Click '按下卡啦雞蛋餅'
+        Call Module2.Selection(Eggroll1.Text, 40)
         RichTextBox1.Text = Eggroll1.Text + vbCrLf + RichTextBox1.Text '將卡啦雞蛋餅輸入在品項'
 
         Price.Text = 40 + Val(Price.Text) '輸入價錢 價錢為40 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll2_Click(sender As Object, e As EventArgs) Handles Eggroll2.Click '按下玉米蛋餅'
+        Call Module2.Selection(Eggroll2.Text, 20)
         RichTextBox1.Text = Eggroll2.Text + vbCrLf + RichTextBox1.Text '將玉米蛋餅輸入在品項'
 
         Price.Text = 20 + Val(Price.Text) '輸入價錢 價錢為20 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll3_Click(sender As Object, e As EventArgs) Handles Eggroll3.Click '按下鮪魚蛋餅'
+        Call Module2.Selection(Eggroll3.Text, 20)
         RichTextBox1.Text = Eggroll3.Text + vbCrLf + RichTextBox1.Text '將鮪魚蛋餅輸入在品項'
 
         Price.Text = 20 + Val(Price.Text) '輸入價錢 價錢為20 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll4_Click(sender As Object, e As EventArgs) Handles Eggroll4.Click '按下豬肉蛋餅'
+        Call Module2.Selection(Eggroll4.Text, 25)
         RichTextBox1.Text = Eggroll4.Text + vbCrLf + RichTextBox1.Text '將豬肉蛋餅輸入在品項'
 
         Price.Text = 25 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll5_Click(sender As Object, e As EventArgs) Handles Eggroll5.Click '按下烤肉蛋餅'
+        Call Module2.Selection(Eggroll5.Text, 30)
         RichTextBox1.Text = Eggroll5.Text + vbCrLf + RichTextBox1.Text '將烤肉蛋餅輸入在品項'
 
         Price.Text = 30 + Val(Price.Text) '輸入價錢 價錢為30 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll6_Click(sender As Object, e As EventArgs) Handles Eggroll6.Click '按下香雞蛋餅'
+        Call Module2.Selection(Eggroll6.Text, 30)
         RichTextBox1.Text = Eggroll6.Text + vbCrLf + RichTextBox1.Text '將香雞蛋餅輸入在品項'
 
         Price.Text = 30 + Val(Price.Text) '輸入價錢 價錢為30 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll7_Click(sender As Object, e As EventArgs) Handles Eggroll7.Click '按下牛肉蛋餅'
+        Call Module2.Selection(Eggroll7.Text, 30)
         RichTextBox1.Text = Eggroll7.Text + vbCrLf + RichTextBox1.Text '將牛肉蛋餅輸入在品項'
 
         Price.Text = 30 + Val(Price.Text) '輸入價錢 價錢為30 由於Price的文字是字串所以先轉換成數字'
     End Sub
     Private Sub Eggroll8_Click(sender As Object, e As EventArgs) Handles Eggroll8.Click '按下泡菜蛋餅'
+        Call Module2.Selection(Eggroll8.Text, 20)
         RichTextBox1.Text = Eggroll8.Text + vbCrLf + RichTextBox1.Text '將泡菜蛋餅輸入在品項'
 
         Price.Text = 20 + Val(Price.Text) '輸入價錢 價錢為20 由於Price的文字是字串所以先轉換成數字'
@@ -136,30 +151,35 @@ Public Class Form1
     End Sub
 
     Private Sub Drink1_Click(sender As Object, e As EventArgs) Handles Drink1.Click '按下奶茶'
+        Call Module2.Selection(Drink1.Text, 25)
         RichTextBox1.Text = Drink1.Text + vbCrLf + RichTextBox1.Text '將奶茶輸入在品項'
 
         Price.Text = 25 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
     Private Sub Drink2_Click(sender As Object, e As EventArgs) Handles Drink2.Click '按下紅茶'
+        Call Module2.Selection(Drink2.Text, 15)
         RichTextBox1.Text = Drink2.Text + vbCrLf + RichTextBox1.Text '將紅茶輸入在品項'
 
         Price.Text = 15 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
     Private Sub Drink3_Click(sender As Object, e As EventArgs) Handles Drink3.Click '按下綠茶'
+        Call Module2.Selection(Drink3.Text, 15)
         RichTextBox1.Text = Drink3.Text + vbCrLf + RichTextBox1.Text '將綠茶輸入在品項'
 
         Price.Text = 15 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
     Private Sub Drink4_Click(sender As Object, e As EventArgs) Handles Drink4.Click '按下柳橙汁'
+        Call Module2.Selection(Drink4.Text, 25)
         RichTextBox1.Text = Drink4.Text + vbCrLf + RichTextBox1.Text '將柳橙汁輸入在品項'
 
         Price.Text = 25 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
     Private Sub Drink5_Click(sender As Object, e As EventArgs) Handles Drink5.Click '按下豆漿'
+        Call Module2.Selection(Drink5.Text, 15)
         RichTextBox1.Text = Drink5.Text + vbCrLf + RichTextBox1.Text '將豆漿輸入在品項'
 
         Price.Text = 15 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
@@ -268,16 +288,5 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Dim Source As String ' 宣告連線的字串
-        Source = "Data Source=.\SQLEXPRESS;" ' 伺服器
-        Source += "AttachDbFilename=|DataDirectory|\Database1.mdf;" ' 資料庫路徑與名稱
-        Source += "Integrated Security=True;" ' 登入的帳號認證
-        Source += "User Instance=True" ' 新使用者執行
-        Dim conn As SqlConnection ' 宣告連線的物件
-        conn = New SqlConnection(Source) ' 連線
-        conn.Open() '開啟資料庫
-        MsgBox("成功連結到SQL Express 的伺服器")
-        conn.Close() '關閉資料庫
-    End Sub
+
 End Class
