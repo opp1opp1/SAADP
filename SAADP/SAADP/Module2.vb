@@ -1,10 +1,9 @@
 ﻿Imports System.Data.SQLite
 Module Module2
-    Dim Conn As SQLiteConnection
+    Public Conn As SQLiteConnection
     Sub Connection()
 
         Conn = New SQLiteConnection("Data Source=POSSQL.db;Pooling=true;FailIfMissing=false")
-
         'If Conn.State <> ConnectionState.Open Then
 
         Conn.Open()
@@ -85,12 +84,27 @@ Module Module2
         sql = Conn.CreateCommand()
 
 
-        sql.CommandText = "update PRODUCTS SET SoldQuantity = SoldQuantity+1 where ( SELECT Cpid From CART  WHERE CART.Cname=PRODUCTS.Pname);" '結帳 不要弄弄妳老母妳佳失火'
+        sql.CommandText = "update PRODUCTS SET SoldQuantity = SoldQuantity+1 where ( SELECT Cid From CART  WHERE CART.Cname=PRODUCTS.Pname);" '結帳 不要弄弄妳老母妳佳失火'
         Dim result As Integer = sql.ExecuteNonQuery()
 
     End Sub
 
+    Sub totalreport()
 
+        Call Module2.Connection()
+        Dim sql As New SQLiteCommand
+
+        sql.Connection = Conn
+
+        sql = Conn.CreateCommand()
+
+
+        sql.CommandText = "SELECT Pname, Size, count(Price) FROM PRODUCTS GROUP BY Pname, Size ORDER BY Pname, Size"
+        Dim result As Integer = sql.ExecuteNonQuery()
+        MsgBox(result)
+
+
+    End Sub
 
 
 End Module
