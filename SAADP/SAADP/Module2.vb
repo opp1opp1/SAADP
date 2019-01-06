@@ -65,14 +65,14 @@ Module Module2
 
         sql.CommandText = "DELETE FROM 'CART' ;"
         Dim result As Integer = sql.ExecuteNonQuery()
-        If result <> 0 Then
+        'If result <> 0 Then
 
-            MsgBox("删除成功")
+        'MsgBox("删除成功")
 
-        Else
-            MsgBox("删除失敗")
+        'Else
+        '    MsgBox("删除失敗")
 
-        End If
+        'End If
 
     End Sub
 
@@ -83,9 +83,14 @@ Module Module2
         sql.Connection = Conn
 
         sql = Conn.CreateCommand()
-        'sql.CommandText = "SELECT COUNT(*) FROM 'CART' WHERE 'Cpid' = 1;"'
-        sql.CommandText = "update 'PRODUCTS' SET SoldQuantity = ( SELECT SoldQuantity From CART WHERE CART.Cname=PRODUCTS.Pname)+1;"
+
+
+        sql.CommandText = "update PRODUCTS SET SoldQuantity = SoldQuantity+1 where ( SELECT Cpid From CART  WHERE CART.Cname=PRODUCTS.Pname);" '結帳 不要弄弄妳老母妳佳失火'
         Dim result As Integer = sql.ExecuteNonQuery()
-        MsgBox(result) '跳出提示畫面'
+
     End Sub
+
+
+
+
 End Module
