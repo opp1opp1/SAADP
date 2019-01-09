@@ -282,18 +282,39 @@ Public Class Form1
         Else RichTextBox1.Text = "套餐折價" + vbCrLf + RichTextBox1.Text '如果不為負 則新增套餐折價在品項上'
         End If
     End Sub
+    Private Sub Drink6_Click(sender As Object, e As EventArgs) Handles Drink6.Click '按下奶茶'
+        Call Module2.Selection(Drink6.Text, 30, 22)
+        RichTextBox1.Text = Drink6.Text + vbCrLf + RichTextBox1.Text '將奶茶輸入在品項'
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
+        Price.Text = 30 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
-    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+    Private Sub Drink7_Click(sender As Object, e As EventArgs) Handles Drink7.Click '按下紅茶'
+        Call Module2.Selection(Drink7.Text, 20, 23)
+        RichTextBox1.Text = Drink7.Text + vbCrLf + RichTextBox1.Text '將紅茶輸入在品項'
 
+        Price.Text = 20 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+    Private Sub Drink8_Click(sender As Object, e As EventArgs) Handles Drink8.Click '按下綠茶'
+        Call Module2.Selection(Drink8.Text, 20, 24)
+        RichTextBox1.Text = Drink8.Text + vbCrLf + RichTextBox1.Text '將綠茶輸入在品項'
 
+        Price.Text = 20 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
     End Sub
 
+    Private Sub Drink9_Click(sender As Object, e As EventArgs) Handles Drink9.Click '按下柳橙汁'
+        Call Module2.Selection(Drink9.Text, 30, 25)
+        RichTextBox1.Text = Drink9.Text + vbCrLf + RichTextBox1.Text '將柳橙汁輸入在品項'
+
+        Price.Text = 30 + Val(Price.Text) '輸入價錢 價錢為25 由於Price的文字是字串所以先轉換成數字'
+    End Sub
+
+    Private Sub Drink10_Click(sender As Object, e As EventArgs) Handles Drink10.Click '按下豆漿'
+        Call Module2.Selection(Drink10.Text, 20, 26)
+        RichTextBox1.Text = Drink10.Text + vbCrLf + RichTextBox1.Text '將豆漿輸入在品項'
+
+        Price.Text = 20 + Val(Price.Text) '輸入價錢 價錢為15 由於Price的文字是字串所以先轉換成數字'
+    End Sub
 
 End Class

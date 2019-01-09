@@ -17,9 +17,9 @@ Module Module2
     Sub Selection(ByRef Name As String, ByRef Price As Integer, ByRef Id As Integer)
         Call Connection()
 
-        Dim sql As New SQLiteCommand
-
-        sql.Connection = Conn
+        Dim sql As New SQLiteCommand With {
+            .Connection = Conn
+        }
 
         sql = Conn.CreateCommand()
 
@@ -56,9 +56,9 @@ Module Module2
     Sub Clear()
         Call Connection()
 
-        Dim sql As New SQLiteCommand
-
-        sql.Connection = Conn
+        Dim sql As New SQLiteCommand With {
+            .Connection = Conn
+        }
 
         sql = Conn.CreateCommand()
 
@@ -77,9 +77,9 @@ Module Module2
 
     Sub Pay()
         Call Connection()
-        Dim sql As New SQLiteCommand
-
-        sql.Connection = Conn
+        Dim sql As New SQLiteCommand With {
+            .Connection = Conn
+        }
 
         sql = Conn.CreateCommand()
 
@@ -89,12 +89,12 @@ Module Module2
 
     End Sub
 
-    Sub totalreport()
+    Sub Totalreport()
 
         Call Module2.Connection()
-        Dim sql As New SQLiteCommand
-
-        sql.Connection = Conn
+        Dim sql As New SQLiteCommand With {
+            .Connection = Conn
+        }
 
         sql = Conn.CreateCommand()
 

@@ -44,6 +44,11 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Price = New System.Windows.Forms.RichTextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Drink10 = New System.Windows.Forms.Button()
+        Me.Drink9 = New System.Windows.Forms.Button()
+        Me.Drink8 = New System.Windows.Forms.Button()
+        Me.Drink7 = New System.Windows.Forms.Button()
+        Me.Drink6 = New System.Windows.Forms.Button()
         Me.PictureBox21 = New System.Windows.Forms.PictureBox()
         Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.PictureBox19 = New System.Windows.Forms.PictureBox()
@@ -319,6 +324,11 @@ Partial Class Form1
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Drink10)
+        Me.GroupBox2.Controls.Add(Me.Drink9)
+        Me.GroupBox2.Controls.Add(Me.Drink8)
+        Me.GroupBox2.Controls.Add(Me.Drink7)
+        Me.GroupBox2.Controls.Add(Me.Drink6)
         Me.GroupBox2.Controls.Add(Me.PictureBox21)
         Me.GroupBox2.Controls.Add(Me.PictureBox20)
         Me.GroupBox2.Controls.Add(Me.PictureBox19)
@@ -332,10 +342,55 @@ Partial Class Form1
         Me.GroupBox2.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(12, 433)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(766, 197)
+        Me.GroupBox2.Size = New System.Drawing.Size(766, 240)
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "飲料類"
+        '
+        'Drink10
+        '
+        Me.Drink10.Location = New System.Drawing.Point(610, 194)
+        Me.Drink10.Name = "Drink10"
+        Me.Drink10.Size = New System.Drawing.Size(145, 40)
+        Me.Drink10.TabIndex = 18
+        Me.Drink10.Text = "大豆漿"
+        Me.Drink10.UseVisualStyleBackColor = True
+        '
+        'Drink9
+        '
+        Me.Drink9.Location = New System.Drawing.Point(459, 194)
+        Me.Drink9.Name = "Drink9"
+        Me.Drink9.Size = New System.Drawing.Size(145, 40)
+        Me.Drink9.TabIndex = 17
+        Me.Drink9.Text = "大柳橙汁"
+        Me.Drink9.UseVisualStyleBackColor = True
+        '
+        'Drink8
+        '
+        Me.Drink8.Location = New System.Drawing.Point(308, 194)
+        Me.Drink8.Name = "Drink8"
+        Me.Drink8.Size = New System.Drawing.Size(145, 40)
+        Me.Drink8.TabIndex = 16
+        Me.Drink8.Text = "大綠茶"
+        Me.Drink8.UseVisualStyleBackColor = True
+        '
+        'Drink7
+        '
+        Me.Drink7.Location = New System.Drawing.Point(157, 194)
+        Me.Drink7.Name = "Drink7"
+        Me.Drink7.Size = New System.Drawing.Size(145, 40)
+        Me.Drink7.TabIndex = 15
+        Me.Drink7.Text = "大紅茶"
+        Me.Drink7.UseVisualStyleBackColor = True
+        '
+        'Drink6
+        '
+        Me.Drink6.Location = New System.Drawing.Point(6, 194)
+        Me.Drink6.Name = "Drink6"
+        Me.Drink6.Size = New System.Drawing.Size(145, 40)
+        Me.Drink6.TabIndex = 14
+        Me.Drink6.Text = "大奶茶"
+        Me.Drink6.UseVisualStyleBackColor = True
         '
         'PictureBox21
         '
@@ -823,4 +878,9 @@ Partial Class Form1
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents Drink10 As Button
+    Friend WithEvents Drink9 As Button
+    Friend WithEvents Drink8 As Button
+    Friend WithEvents Drink7 As Button
+    Friend WithEvents Drink6 As Button
 End Class
