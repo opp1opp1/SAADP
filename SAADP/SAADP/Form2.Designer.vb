@@ -47,7 +47,7 @@ Partial Class Form2
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(120, 120)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "總營業額報表"
+        Me.Button2.Text = "所有銷售金額報表"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -67,7 +67,7 @@ Partial Class Form2
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(120, 120)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "單品項查詢"
+        Me.Button4.Text = "說明"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'DataGridView1

@@ -73,7 +73,7 @@ Partial Class AdminPassword
         'Button_clear
         '
         Me.Button_clear.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Button_clear.Location = New System.Drawing.Point(111, 345)
+        Me.Button_clear.Location = New System.Drawing.Point(0, 345)
         Me.Button_clear.Name = "Button_clear"
         Me.Button_clear.Size = New System.Drawing.Size(100, 100)
         Me.Button_clear.TabIndex = 0
@@ -83,7 +83,7 @@ Partial Class AdminPassword
         'Num0
         '
         Me.Num0.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.Num0.Location = New System.Drawing.Point(0, 345)
+        Me.Num0.Location = New System.Drawing.Point(111, 345)
         Me.Num0.Name = "Num0"
         Me.Num0.Size = New System.Drawing.Size(100, 100)
         Me.Num0.TabIndex = 0

@@ -24,14 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Burger8 = New System.Windows.Forms.Button()
         Me.Burger7 = New System.Windows.Forms.Button()
         Me.Burger6 = New System.Windows.Forms.Button()
@@ -49,11 +41,6 @@ Partial Class Form1
         Me.Drink8 = New System.Windows.Forms.Button()
         Me.Drink7 = New System.Windows.Forms.Button()
         Me.Drink6 = New System.Windows.Forms.Button()
-        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
         Me.Drink5 = New System.Windows.Forms.Button()
         Me.Drink4 = New System.Windows.Forms.Button()
         Me.Drink3 = New System.Windows.Forms.Button()
@@ -70,14 +57,6 @@ Partial Class Form1
         Me.Admin8 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.Eggroll8 = New System.Windows.Forms.Button()
         Me.Eggroll7 = New System.Windows.Forms.Button()
         Me.Eggroll6 = New System.Windows.Forms.Button()
@@ -86,41 +65,62 @@ Partial Class Form1
         Me.Eggroll3 = New System.Windows.Forms.Button()
         Me.Eggroll2 = New System.Windows.Forms.Button()
         Me.Eggroll1 = New System.Windows.Forms.Button()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
         Me.PictureBox22 = New System.Windows.Forms.PictureBox()
         Me.PictureBox23 = New System.Windows.Forms.PictureBox()
         Me.PictureBox24 = New System.Windows.Forms.PictureBox()
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
         Me.PictureBox26 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -141,6 +141,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Burger3)
         Me.GroupBox1.Controls.Add(Me.Burger2)
         Me.GroupBox1.Controls.Add(Me.Burger1)
+        Me.GroupBox1.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.GroupBox1.Font = New System.Drawing.Font("微軟正黑體", 16.0!)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
@@ -149,88 +150,9 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "漢堡類"
         '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(1063, 23)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(145, 111)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 15
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(912, 23)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(136, 111)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 14
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(761, 23)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(128, 111)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 13
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(619, 23)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(127, 111)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 12
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(459, 35)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(130, 99)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 11
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(318, 35)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(118, 99)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 10
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(157, 35)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(130, 99)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 9
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(16, 35)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(108, 99)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 8
-        Me.PictureBox1.TabStop = False
-        '
         'Burger8
         '
+        Me.Burger8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger8.Location = New System.Drawing.Point(1063, 140)
         Me.Burger8.Name = "Burger8"
         Me.Burger8.Size = New System.Drawing.Size(145, 40)
@@ -240,6 +162,7 @@ Partial Class Form1
         '
         'Burger7
         '
+        Me.Burger7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger7.Location = New System.Drawing.Point(912, 140)
         Me.Burger7.Name = "Burger7"
         Me.Burger7.Size = New System.Drawing.Size(145, 40)
@@ -249,6 +172,7 @@ Partial Class Form1
         '
         'Burger6
         '
+        Me.Burger6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger6.Location = New System.Drawing.Point(761, 140)
         Me.Burger6.Name = "Burger6"
         Me.Burger6.Size = New System.Drawing.Size(145, 40)
@@ -258,6 +182,7 @@ Partial Class Form1
         '
         'Burger5
         '
+        Me.Burger5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger5.Location = New System.Drawing.Point(610, 140)
         Me.Burger5.Name = "Burger5"
         Me.Burger5.Size = New System.Drawing.Size(145, 40)
@@ -267,6 +192,7 @@ Partial Class Form1
         '
         'Burger4
         '
+        Me.Burger4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger4.Location = New System.Drawing.Point(459, 140)
         Me.Burger4.Name = "Burger4"
         Me.Burger4.Size = New System.Drawing.Size(145, 40)
@@ -276,6 +202,7 @@ Partial Class Form1
         '
         'Burger3
         '
+        Me.Burger3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger3.Location = New System.Drawing.Point(308, 140)
         Me.Burger3.Name = "Burger3"
         Me.Burger3.Size = New System.Drawing.Size(145, 40)
@@ -285,6 +212,7 @@ Partial Class Form1
         '
         'Burger2
         '
+        Me.Burger2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger2.Location = New System.Drawing.Point(157, 140)
         Me.Burger2.Name = "Burger2"
         Me.Burger2.Size = New System.Drawing.Size(145, 40)
@@ -294,6 +222,7 @@ Partial Class Form1
         '
         'Burger1
         '
+        Me.Burger1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Burger1.Location = New System.Drawing.Point(6, 140)
         Me.Burger1.Name = "Burger1"
         Me.Burger1.Size = New System.Drawing.Size(145, 40)
@@ -303,6 +232,7 @@ Partial Class Form1
         '
         'RichTextBox1
         '
+        Me.RichTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.RichTextBox1.Location = New System.Drawing.Point(1475, 25)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(417, 863)
@@ -311,16 +241,21 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.Font = New System.Drawing.Font("微軟正黑體", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Location = New System.Drawing.Point(1475, 978)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(417, 51)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "結帳"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Price
         '
         Me.Price.BackColor = System.Drawing.SystemColors.Window
+        Me.Price.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Price.Font = New System.Drawing.Font("微軟正黑體", 24.0!)
         Me.Price.ForeColor = System.Drawing.Color.Red
         Me.Price.Location = New System.Drawing.Point(1475, 894)
@@ -354,6 +289,7 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Drink3)
         Me.GroupBox2.Controls.Add(Me.Drink2)
         Me.GroupBox2.Controls.Add(Me.Drink1)
+        Me.GroupBox2.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.GroupBox2.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(12, 433)
         Me.GroupBox2.Name = "GroupBox2"
@@ -364,6 +300,7 @@ Partial Class Form1
         '
         'Drink10
         '
+        Me.Drink10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink10.Location = New System.Drawing.Point(610, 380)
         Me.Drink10.Name = "Drink10"
         Me.Drink10.Size = New System.Drawing.Size(145, 40)
@@ -373,6 +310,7 @@ Partial Class Form1
         '
         'Drink9
         '
+        Me.Drink9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink9.Location = New System.Drawing.Point(459, 380)
         Me.Drink9.Name = "Drink9"
         Me.Drink9.Size = New System.Drawing.Size(145, 40)
@@ -382,6 +320,7 @@ Partial Class Form1
         '
         'Drink8
         '
+        Me.Drink8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink8.Location = New System.Drawing.Point(308, 380)
         Me.Drink8.Name = "Drink8"
         Me.Drink8.Size = New System.Drawing.Size(145, 40)
@@ -391,6 +330,7 @@ Partial Class Form1
         '
         'Drink7
         '
+        Me.Drink7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink7.Location = New System.Drawing.Point(157, 380)
         Me.Drink7.Name = "Drink7"
         Me.Drink7.Size = New System.Drawing.Size(145, 40)
@@ -400,6 +340,7 @@ Partial Class Form1
         '
         'Drink6
         '
+        Me.Drink6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink6.Location = New System.Drawing.Point(6, 380)
         Me.Drink6.Name = "Drink6"
         Me.Drink6.Size = New System.Drawing.Size(145, 40)
@@ -407,58 +348,9 @@ Partial Class Form1
         Me.Drink6.Text = "大奶茶"
         Me.Drink6.UseVisualStyleBackColor = True
         '
-        'PictureBox21
-        '
-        Me.PictureBox21.Image = CType(resources.GetObject("PictureBox21.Image"), System.Drawing.Image)
-        Me.PictureBox21.Location = New System.Drawing.Point(616, 22)
-        Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(130, 124)
-        Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox21.TabIndex = 13
-        Me.PictureBox21.TabStop = False
-        '
-        'PictureBox20
-        '
-        Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
-        Me.PictureBox20.Location = New System.Drawing.Point(469, 22)
-        Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(120, 124)
-        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox20.TabIndex = 12
-        Me.PictureBox20.TabStop = False
-        '
-        'PictureBox19
-        '
-        Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
-        Me.PictureBox19.Location = New System.Drawing.Point(318, 22)
-        Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(128, 124)
-        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox19.TabIndex = 11
-        Me.PictureBox19.TabStop = False
-        '
-        'PictureBox18
-        '
-        Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
-        Me.PictureBox18.Location = New System.Drawing.Point(157, 34)
-        Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(117, 112)
-        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox18.TabIndex = 10
-        Me.PictureBox18.TabStop = False
-        '
-        'PictureBox17
-        '
-        Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
-        Me.PictureBox17.Location = New System.Drawing.Point(27, 34)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(97, 112)
-        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox17.TabIndex = 9
-        Me.PictureBox17.TabStop = False
-        '
         'Drink5
         '
+        Me.Drink5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink5.Location = New System.Drawing.Point(610, 152)
         Me.Drink5.Name = "Drink5"
         Me.Drink5.Size = New System.Drawing.Size(145, 39)
@@ -468,6 +360,7 @@ Partial Class Form1
         '
         'Drink4
         '
+        Me.Drink4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink4.Location = New System.Drawing.Point(459, 152)
         Me.Drink4.Name = "Drink4"
         Me.Drink4.Size = New System.Drawing.Size(145, 39)
@@ -477,6 +370,7 @@ Partial Class Form1
         '
         'Drink3
         '
+        Me.Drink3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink3.Location = New System.Drawing.Point(308, 152)
         Me.Drink3.Name = "Drink3"
         Me.Drink3.Size = New System.Drawing.Size(145, 40)
@@ -486,6 +380,7 @@ Partial Class Form1
         '
         'Drink2
         '
+        Me.Drink2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink2.Location = New System.Drawing.Point(157, 152)
         Me.Drink2.Name = "Drink2"
         Me.Drink2.Size = New System.Drawing.Size(145, 40)
@@ -495,6 +390,7 @@ Partial Class Form1
         '
         'Drink1
         '
+        Me.Drink1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Drink1.Location = New System.Drawing.Point(6, 152)
         Me.Drink1.Name = "Drink1"
         Me.Drink1.Size = New System.Drawing.Size(145, 40)
@@ -504,7 +400,9 @@ Partial Class Form1
         '
         'Button2
         '
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.Font = New System.Drawing.Font("微軟正黑體", 24.0!)
+        Me.Button2.ForeColor = System.Drawing.Color.LightCoral
         Me.Button2.Location = New System.Drawing.Point(1235, 25)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(234, 189)
@@ -514,7 +412,9 @@ Partial Class Form1
         '
         'Admin1
         '
+        Me.Admin1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin1.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin1.ForeColor = System.Drawing.Color.Red
         Me.Admin1.Location = New System.Drawing.Point(21, 41)
         Me.Admin1.Name = "Admin1"
         Me.Admin1.Size = New System.Drawing.Size(80, 80)
@@ -524,7 +424,9 @@ Partial Class Form1
         '
         'Admin2
         '
+        Me.Admin2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin2.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin2.ForeColor = System.Drawing.Color.Red
         Me.Admin2.Location = New System.Drawing.Point(127, 41)
         Me.Admin2.Name = "Admin2"
         Me.Admin2.Size = New System.Drawing.Size(80, 80)
@@ -534,7 +436,9 @@ Partial Class Form1
         '
         'Admin3
         '
+        Me.Admin3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin3.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin3.ForeColor = System.Drawing.Color.Red
         Me.Admin3.Location = New System.Drawing.Point(21, 127)
         Me.Admin3.Name = "Admin3"
         Me.Admin3.Size = New System.Drawing.Size(80, 80)
@@ -544,7 +448,9 @@ Partial Class Form1
         '
         'Admin4
         '
+        Me.Admin4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin4.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin4.ForeColor = System.Drawing.Color.Red
         Me.Admin4.Location = New System.Drawing.Point(127, 127)
         Me.Admin4.Name = "Admin4"
         Me.Admin4.Size = New System.Drawing.Size(80, 80)
@@ -554,7 +460,9 @@ Partial Class Form1
         '
         'Admin5
         '
+        Me.Admin5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin5.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin5.ForeColor = System.Drawing.Color.Red
         Me.Admin5.Location = New System.Drawing.Point(21, 213)
         Me.Admin5.Name = "Admin5"
         Me.Admin5.Size = New System.Drawing.Size(80, 80)
@@ -564,7 +472,9 @@ Partial Class Form1
         '
         'Admin6
         '
+        Me.Admin6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin6.Font = New System.Drawing.Font("微軟正黑體", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin6.ForeColor = System.Drawing.Color.Red
         Me.Admin6.Location = New System.Drawing.Point(127, 213)
         Me.Admin6.Name = "Admin6"
         Me.Admin6.Size = New System.Drawing.Size(80, 80)
@@ -574,7 +484,9 @@ Partial Class Form1
         '
         'Admin7
         '
+        Me.Admin7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin7.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin7.ForeColor = System.Drawing.Color.Red
         Me.Admin7.Location = New System.Drawing.Point(127, 299)
         Me.Admin7.Name = "Admin7"
         Me.Admin7.Size = New System.Drawing.Size(80, 80)
@@ -584,7 +496,9 @@ Partial Class Form1
         '
         'Admin8
         '
+        Me.Admin8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Admin8.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin8.ForeColor = System.Drawing.Color.Red
         Me.Admin8.Location = New System.Drawing.Point(21, 299)
         Me.Admin8.Name = "Admin8"
         Me.Admin8.Size = New System.Drawing.Size(80, 80)
@@ -602,6 +516,7 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.Admin4)
         Me.GroupBox3.Controls.Add(Me.Admin6)
         Me.GroupBox3.Controls.Add(Me.Admin5)
+        Me.GroupBox3.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.GroupBox3.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(1247, 220)
         Me.GroupBox3.Name = "GroupBox3"
@@ -628,6 +543,7 @@ Partial Class Form1
         Me.GroupBox4.Controls.Add(Me.Eggroll3)
         Me.GroupBox4.Controls.Add(Me.Eggroll2)
         Me.GroupBox4.Controls.Add(Me.Eggroll1)
+        Me.GroupBox4.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.GroupBox4.Font = New System.Drawing.Font("微軟正黑體", 16.0!)
         Me.GroupBox4.Location = New System.Drawing.Point(12, 226)
         Me.GroupBox4.Name = "GroupBox4"
@@ -636,88 +552,9 @@ Partial Class Form1
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "蛋餅類"
         '
-        'PictureBox16
-        '
-        Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
-        Me.PictureBox16.Location = New System.Drawing.Point(1076, 12)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(120, 122)
-        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox16.TabIndex = 15
-        Me.PictureBox16.TabStop = False
-        '
-        'PictureBox15
-        '
-        Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
-        Me.PictureBox15.Location = New System.Drawing.Point(922, 12)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(135, 122)
-        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox15.TabIndex = 14
-        Me.PictureBox15.TabStop = False
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
-        Me.PictureBox14.Location = New System.Drawing.Point(761, 0)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(145, 134)
-        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox14.TabIndex = 13
-        Me.PictureBox14.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
-        Me.PictureBox13.Location = New System.Drawing.Point(619, 35)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(130, 99)
-        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox13.TabIndex = 9
-        Me.PictureBox13.TabStop = False
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
-        Me.PictureBox12.Location = New System.Drawing.Point(469, 35)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(120, 99)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox12.TabIndex = 12
-        Me.PictureBox12.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(308, 12)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(128, 122)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 11
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
-        Me.PictureBox10.Location = New System.Drawing.Point(157, 22)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(133, 112)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 10
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(6, 35)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(126, 99)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 9
-        Me.PictureBox9.TabStop = False
-        '
         'Eggroll8
         '
+        Me.Eggroll8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll8.Location = New System.Drawing.Point(1063, 140)
         Me.Eggroll8.Name = "Eggroll8"
         Me.Eggroll8.Size = New System.Drawing.Size(145, 40)
@@ -727,6 +564,7 @@ Partial Class Form1
         '
         'Eggroll7
         '
+        Me.Eggroll7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll7.Location = New System.Drawing.Point(912, 140)
         Me.Eggroll7.Name = "Eggroll7"
         Me.Eggroll7.Size = New System.Drawing.Size(145, 40)
@@ -736,6 +574,7 @@ Partial Class Form1
         '
         'Eggroll6
         '
+        Me.Eggroll6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll6.Location = New System.Drawing.Point(761, 140)
         Me.Eggroll6.Name = "Eggroll6"
         Me.Eggroll6.Size = New System.Drawing.Size(145, 40)
@@ -745,6 +584,7 @@ Partial Class Form1
         '
         'Eggroll5
         '
+        Me.Eggroll5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll5.Location = New System.Drawing.Point(610, 140)
         Me.Eggroll5.Name = "Eggroll5"
         Me.Eggroll5.Size = New System.Drawing.Size(145, 40)
@@ -754,6 +594,7 @@ Partial Class Form1
         '
         'Eggroll4
         '
+        Me.Eggroll4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll4.Location = New System.Drawing.Point(459, 140)
         Me.Eggroll4.Name = "Eggroll4"
         Me.Eggroll4.Size = New System.Drawing.Size(145, 40)
@@ -763,6 +604,7 @@ Partial Class Form1
         '
         'Eggroll3
         '
+        Me.Eggroll3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll3.Location = New System.Drawing.Point(308, 140)
         Me.Eggroll3.Name = "Eggroll3"
         Me.Eggroll3.Size = New System.Drawing.Size(145, 40)
@@ -772,6 +614,7 @@ Partial Class Form1
         '
         'Eggroll2
         '
+        Me.Eggroll2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll2.Location = New System.Drawing.Point(157, 140)
         Me.Eggroll2.Name = "Eggroll2"
         Me.Eggroll2.Size = New System.Drawing.Size(145, 40)
@@ -781,6 +624,7 @@ Partial Class Form1
         '
         'Eggroll1
         '
+        Me.Eggroll1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Eggroll1.Location = New System.Drawing.Point(6, 140)
         Me.Eggroll1.Name = "Eggroll1"
         Me.Eggroll1.Size = New System.Drawing.Size(145, 40)
@@ -788,10 +632,154 @@ Partial Class Form1
         Me.Eggroll1.Text = "卡啦雞蛋餅"
         Me.Eggroll1.UseVisualStyleBackColor = True
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
+        Me.PictureBox9.Location = New System.Drawing.Point(6, 35)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(126, 99)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 9
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
+        Me.PictureBox10.Location = New System.Drawing.Point(157, 22)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(133, 112)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 10
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
+        Me.PictureBox11.Location = New System.Drawing.Point(308, 12)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(128, 122)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 11
+        Me.PictureBox11.TabStop = False
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
+        Me.PictureBox12.Location = New System.Drawing.Point(469, 35)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(120, 99)
+        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox12.TabIndex = 12
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
+        Me.PictureBox13.Location = New System.Drawing.Point(619, 35)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(130, 99)
+        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox13.TabIndex = 9
+        Me.PictureBox13.TabStop = False
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
+        Me.PictureBox14.Location = New System.Drawing.Point(761, 0)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(145, 134)
+        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox14.TabIndex = 13
+        Me.PictureBox14.TabStop = False
+        '
+        'PictureBox15
+        '
+        Me.PictureBox15.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
+        Me.PictureBox15.Location = New System.Drawing.Point(922, 12)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(135, 122)
+        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox15.TabIndex = 14
+        Me.PictureBox15.TabStop = False
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
+        Me.PictureBox16.Location = New System.Drawing.Point(1076, 12)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(120, 122)
+        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox16.TabIndex = 15
+        Me.PictureBox16.TabStop = False
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
+        Me.PictureBox17.Location = New System.Drawing.Point(27, 34)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(97, 112)
+        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox17.TabIndex = 9
+        Me.PictureBox17.TabStop = False
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
+        Me.PictureBox18.Location = New System.Drawing.Point(157, 34)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(117, 112)
+        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox18.TabIndex = 10
+        Me.PictureBox18.TabStop = False
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
+        Me.PictureBox19.Location = New System.Drawing.Point(318, 22)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(128, 124)
+        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox19.TabIndex = 11
+        Me.PictureBox19.TabStop = False
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
+        Me.PictureBox20.Location = New System.Drawing.Point(469, 22)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(120, 124)
+        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox20.TabIndex = 12
+        Me.PictureBox20.TabStop = False
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox21.Image = CType(resources.GetObject("PictureBox21.Image"), System.Drawing.Image)
+        Me.PictureBox21.Location = New System.Drawing.Point(616, 22)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(130, 124)
+        Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox21.TabIndex = 13
+        Me.PictureBox21.TabStop = False
+        '
         'PictureBox22
         '
         Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.PictureBox22.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
         Me.PictureBox22.Location = New System.Drawing.Point(16, 230)
         Me.PictureBox22.Name = "PictureBox22"
@@ -804,6 +792,7 @@ Partial Class Form1
         '
         Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox23.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.PictureBox23.Location = New System.Drawing.Point(157, 230)
         Me.PictureBox23.Name = "PictureBox23"
         Me.PictureBox23.Size = New System.Drawing.Size(130, 135)
@@ -815,6 +804,7 @@ Partial Class Form1
         '
         Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox24.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.PictureBox24.Location = New System.Drawing.Point(311, 222)
         Me.PictureBox24.Name = "PictureBox24"
         Me.PictureBox24.Size = New System.Drawing.Size(135, 143)
@@ -826,6 +816,7 @@ Partial Class Form1
         '
         Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox25.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.PictureBox25.Location = New System.Drawing.Point(459, 222)
         Me.PictureBox25.Name = "PictureBox25"
         Me.PictureBox25.Size = New System.Drawing.Size(135, 143)
@@ -836,11 +827,100 @@ Partial Class Form1
         '
         Me.PictureBox26.BackgroundImage = CType(resources.GetObject("PictureBox26.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox26.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.PictureBox26.Location = New System.Drawing.Point(608, 222)
         Me.PictureBox26.Name = "PictureBox26"
         Me.PictureBox26.Size = New System.Drawing.Size(135, 143)
         Me.PictureBox26.TabIndex = 23
         Me.PictureBox26.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(16, 35)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(108, 99)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 8
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(157, 35)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(130, 99)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 9
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(318, 35)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(118, 99)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 10
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(459, 35)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(130, 99)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 11
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(619, 23)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(127, 111)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 12
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(761, 23)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(128, 111)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 13
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
+        Me.PictureBox7.Location = New System.Drawing.Point(912, 23)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(136, 111)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 14
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
+        Me.PictureBox8.Location = New System.Drawing.Point(1063, 23)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(145, 111)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 15
+        Me.PictureBox8.TabStop = False
         '
         'Form1
         '
@@ -861,35 +941,35 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = " "
         Me.GroupBox1.ResumeLayout(False)
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -931,14 +1011,24 @@ Partial Class Form1
     Friend WithEvents Eggroll3 As Button
     Friend WithEvents Eggroll2 As Button
     Friend WithEvents Eggroll1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Drink10 As Button
+    Friend WithEvents Drink9 As Button
+    Friend WithEvents Drink8 As Button
+    Friend WithEvents Drink7 As Button
+    Friend WithEvents Drink6 As Button
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox26 As PictureBox
+    Friend WithEvents PictureBox25 As PictureBox
+    Friend WithEvents PictureBox24 As PictureBox
+    Friend WithEvents PictureBox23 As PictureBox
+    Friend WithEvents PictureBox22 As PictureBox
     Friend WithEvents PictureBox21 As PictureBox
     Friend WithEvents PictureBox20 As PictureBox
     Friend WithEvents PictureBox19 As PictureBox
@@ -952,14 +1042,4 @@ Partial Class Form1
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox9 As PictureBox
-    Friend WithEvents Drink10 As Button
-    Friend WithEvents Drink9 As Button
-    Friend WithEvents Drink8 As Button
-    Friend WithEvents Drink7 As Button
-    Friend WithEvents Drink6 As Button
-    Friend WithEvents PictureBox26 As PictureBox
-    Friend WithEvents PictureBox25 As PictureBox
-    Friend WithEvents PictureBox24 As PictureBox
-    Friend WithEvents PictureBox23 As PictureBox
-    Friend WithEvents PictureBox22 As PictureBox
 End Class

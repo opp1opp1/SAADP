@@ -31,14 +31,16 @@ Module Module2
         sql.Parameters.Add("@Cpid", Data.DbType.Int16).Value = Id
 
         Dim result As Integer = sql.ExecuteNonQuery()
-
-        sql.CommandText = "insert into 'ORDERS' (Oname,Oprice,Opid)values(@Name,@Price,@Cpid);"
+        Dim Max As Integer = sql.ExecuteNonQuery()
+        sql.CommandText = "SELECT max(Payid) FROM PAYMENTS;"
+        max = sql.ExecuteNonQuery()
+        sql.CommandText = "insert into 'ORDERS' (Oname,Oprice,Opid,Opayid)values(@Name,@Price,@Cpid,@Max);"
         sql.Parameters.Add("@Name", Data.DbType.String).Value = Name
 
         sql.Parameters.Add("@Price", Data.DbType.Int16).Value = Price
 
         sql.Parameters.Add("@Cpid", Data.DbType.Int16).Value = Id
-
+        sql.Parameters.Add("@Max", Data.DbType.Int16).Value = Max + 1
         result = sql.ExecuteNonQuery()
 
         'If result = 1 Then
