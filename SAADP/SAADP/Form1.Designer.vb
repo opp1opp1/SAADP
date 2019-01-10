@@ -86,6 +86,11 @@ Partial Class Form1
         Me.Eggroll3 = New System.Windows.Forms.Button()
         Me.Eggroll2 = New System.Windows.Forms.Button()
         Me.Eggroll1 = New System.Windows.Forms.Button()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -111,6 +116,11 @@ Partial Class Form1
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -324,6 +334,11 @@ Partial Class Form1
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.PictureBox26)
+        Me.GroupBox2.Controls.Add(Me.PictureBox25)
+        Me.GroupBox2.Controls.Add(Me.PictureBox24)
+        Me.GroupBox2.Controls.Add(Me.PictureBox23)
+        Me.GroupBox2.Controls.Add(Me.PictureBox22)
         Me.GroupBox2.Controls.Add(Me.Drink10)
         Me.GroupBox2.Controls.Add(Me.Drink9)
         Me.GroupBox2.Controls.Add(Me.Drink8)
@@ -342,14 +357,14 @@ Partial Class Form1
         Me.GroupBox2.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(12, 433)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(766, 240)
+        Me.GroupBox2.Size = New System.Drawing.Size(749, 434)
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "飲料類"
         '
         'Drink10
         '
-        Me.Drink10.Location = New System.Drawing.Point(610, 194)
+        Me.Drink10.Location = New System.Drawing.Point(610, 380)
         Me.Drink10.Name = "Drink10"
         Me.Drink10.Size = New System.Drawing.Size(145, 40)
         Me.Drink10.TabIndex = 18
@@ -358,7 +373,7 @@ Partial Class Form1
         '
         'Drink9
         '
-        Me.Drink9.Location = New System.Drawing.Point(459, 194)
+        Me.Drink9.Location = New System.Drawing.Point(459, 380)
         Me.Drink9.Name = "Drink9"
         Me.Drink9.Size = New System.Drawing.Size(145, 40)
         Me.Drink9.TabIndex = 17
@@ -367,7 +382,7 @@ Partial Class Form1
         '
         'Drink8
         '
-        Me.Drink8.Location = New System.Drawing.Point(308, 194)
+        Me.Drink8.Location = New System.Drawing.Point(308, 380)
         Me.Drink8.Name = "Drink8"
         Me.Drink8.Size = New System.Drawing.Size(145, 40)
         Me.Drink8.TabIndex = 16
@@ -376,7 +391,7 @@ Partial Class Form1
         '
         'Drink7
         '
-        Me.Drink7.Location = New System.Drawing.Point(157, 194)
+        Me.Drink7.Location = New System.Drawing.Point(157, 380)
         Me.Drink7.Name = "Drink7"
         Me.Drink7.Size = New System.Drawing.Size(145, 40)
         Me.Drink7.TabIndex = 15
@@ -385,7 +400,7 @@ Partial Class Form1
         '
         'Drink6
         '
-        Me.Drink6.Location = New System.Drawing.Point(6, 194)
+        Me.Drink6.Location = New System.Drawing.Point(6, 380)
         Me.Drink6.Name = "Drink6"
         Me.Drink6.Size = New System.Drawing.Size(145, 40)
         Me.Drink6.TabIndex = 14
@@ -773,6 +788,60 @@ Partial Class Form1
         Me.Eggroll1.Text = "卡啦雞蛋餅"
         Me.Eggroll1.UseVisualStyleBackColor = True
         '
+        'PictureBox22
+        '
+        Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
+        Me.PictureBox22.Location = New System.Drawing.Point(16, 230)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(116, 135)
+        Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox22.TabIndex = 19
+        Me.PictureBox22.TabStop = False
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox23.Location = New System.Drawing.Point(157, 230)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(130, 135)
+        Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox23.TabIndex = 20
+        Me.PictureBox23.TabStop = False
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox24.Location = New System.Drawing.Point(311, 222)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(135, 143)
+        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox24.TabIndex = 21
+        Me.PictureBox24.TabStop = False
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox25.Location = New System.Drawing.Point(459, 222)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(135, 143)
+        Me.PictureBox25.TabIndex = 22
+        Me.PictureBox25.TabStop = False
+        '
+        'PictureBox26
+        '
+        Me.PictureBox26.BackgroundImage = CType(resources.GetObject("PictureBox26.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox26.Location = New System.Drawing.Point(608, 222)
+        Me.PictureBox26.Name = "PictureBox26"
+        Me.PictureBox26.Size = New System.Drawing.Size(135, 143)
+        Me.PictureBox26.TabIndex = 23
+        Me.PictureBox26.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -816,6 +885,11 @@ Partial Class Form1
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -883,4 +957,9 @@ Partial Class Form1
     Friend WithEvents Drink8 As Button
     Friend WithEvents Drink7 As Button
     Friend WithEvents Drink6 As Button
+    Friend WithEvents PictureBox26 As PictureBox
+    Friend WithEvents PictureBox25 As PictureBox
+    Friend WithEvents PictureBox24 As PictureBox
+    Friend WithEvents PictureBox23 As PictureBox
+    Friend WithEvents PictureBox22 As PictureBox
 End Class
