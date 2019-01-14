@@ -20,8 +20,8 @@ Public Class Form2
 
     End Sub
     Public Sub totalSelectShowInfo()
-        Call Module2.Connection()
-        Dim sa As New SQLiteDataAdapter("SELECT Pname, Size, sum(soldquantity*price) FROM PRODUCTS GROUP BY Pname, Size ORDER BY Pname, Size;", Conn)
+        Call Module2.Connection() '總營業額'
+        Dim sa As New SQLiteDataAdapter("SELECT sum(soldquantity*price) FROM PRODUCTS ", Conn)
         Dim ds As New System.Data.DataSet
         sa.Fill(ds, "Test")
         Dim mytable As New System.Data.DataTable
@@ -30,9 +30,9 @@ Public Class Form2
         Me.DataGridView1.Refresh()
     End Sub
 
-    Public Sub sellSelectShowinfo() '銷售數量排行'
+    Public Sub sellSelectShowinfo() '產品銷售'
         Call Module2.Connection()
-        Dim sa As New SQLiteDataAdapter("SELECT Pname, Size, sum(soldquantity*price) FROM PRODUCTS GROUP BY Pname, Size ORDER BY Pname, Size;", Conn)
+        Dim sa As New SQLiteDataAdapter("SELECT Pname, Size, SoldQUANTITY,sum(soldquantity*price) FROM PRODUCTS GROUP BY Pname, Size ORDER BY Pname, Size;", Conn)
         Dim ds As New System.Data.DataSet
         sa.Fill(ds, "Test")
         Dim mytable As New System.Data.DataTable
@@ -41,15 +41,9 @@ Public Class Form2
         Me.DataGridView1.Refresh()
     End Sub
 
-    Public Sub singleSelectShowInfo() '單品項查詢'
-        Call Module2.Connection()
-        Dim sa As New SQLiteDataAdapter("SELECT Pname, Size, sum(soldquantity*price) FROM PRODUCTS GROUP BY Pname, Size ORDER BY Pname, Size;", Conn)
-        Dim ds As New System.Data.DataSet
-        sa.Fill(ds, "Test")
-        Dim mytable As New System.Data.DataTable
-        mytable = ds.Tables("Test")
-        Me.DataGridView1.DataSource = mytable
-        Me.DataGridView1.Refresh()
+    Public Sub singleSelectShowInfo() '版本說明'
+        MsgBox("Copyright © 2018-2019 SAADP Inc. 保留一切權利。")
+
     End Sub
 
 End Class

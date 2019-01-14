@@ -44,6 +44,11 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Price = New System.Windows.Forms.RichTextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
         Me.Drink10 = New System.Windows.Forms.Button()
         Me.Drink9 = New System.Windows.Forms.Button()
         Me.Drink8 = New System.Windows.Forms.Button()
@@ -86,11 +91,6 @@ Partial Class Form1
         Me.Eggroll3 = New System.Windows.Forms.Button()
         Me.Eggroll2 = New System.Windows.Forms.Button()
         Me.Eggroll1 = New System.Windows.Forms.Button()
-        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -101,6 +101,11 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -116,11 +121,6 @@ Partial Class Form1
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -231,75 +231,99 @@ Partial Class Form1
         '
         'Burger8
         '
+        Me.Burger8.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger8.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger8.Location = New System.Drawing.Point(1063, 140)
         Me.Burger8.Name = "Burger8"
         Me.Burger8.Size = New System.Drawing.Size(145, 40)
         Me.Burger8.TabIndex = 7
         Me.Burger8.Text = "總匯蛋堡"
-        Me.Burger8.UseVisualStyleBackColor = True
+        Me.Burger8.UseVisualStyleBackColor = False
         '
         'Burger7
         '
+        Me.Burger7.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger7.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger7.Location = New System.Drawing.Point(912, 140)
         Me.Burger7.Name = "Burger7"
         Me.Burger7.Size = New System.Drawing.Size(145, 40)
         Me.Burger7.TabIndex = 6
         Me.Burger7.Text = "牛肉蛋堡"
-        Me.Burger7.UseVisualStyleBackColor = True
+        Me.Burger7.UseVisualStyleBackColor = False
         '
         'Burger6
         '
+        Me.Burger6.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger6.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger6.Location = New System.Drawing.Point(761, 140)
         Me.Burger6.Name = "Burger6"
         Me.Burger6.Size = New System.Drawing.Size(145, 40)
         Me.Burger6.TabIndex = 5
         Me.Burger6.Text = "香雞蛋堡"
-        Me.Burger6.UseVisualStyleBackColor = True
+        Me.Burger6.UseVisualStyleBackColor = False
         '
         'Burger5
         '
+        Me.Burger5.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger5.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger5.Location = New System.Drawing.Point(610, 140)
         Me.Burger5.Name = "Burger5"
         Me.Burger5.Size = New System.Drawing.Size(145, 40)
         Me.Burger5.TabIndex = 4
         Me.Burger5.Text = "烤肉蛋堡"
-        Me.Burger5.UseVisualStyleBackColor = True
+        Me.Burger5.UseVisualStyleBackColor = False
         '
         'Burger4
         '
+        Me.Burger4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger4.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger4.Location = New System.Drawing.Point(459, 140)
         Me.Burger4.Name = "Burger4"
         Me.Burger4.Size = New System.Drawing.Size(145, 40)
         Me.Burger4.TabIndex = 3
         Me.Burger4.Text = "豬肉蛋堡"
-        Me.Burger4.UseVisualStyleBackColor = True
+        Me.Burger4.UseVisualStyleBackColor = False
         '
         'Burger3
         '
+        Me.Burger3.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger3.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger3.Location = New System.Drawing.Point(308, 140)
         Me.Burger3.Name = "Burger3"
         Me.Burger3.Size = New System.Drawing.Size(145, 40)
         Me.Burger3.TabIndex = 2
         Me.Burger3.Text = "肉鬆蛋堡"
-        Me.Burger3.UseVisualStyleBackColor = True
+        Me.Burger3.UseVisualStyleBackColor = False
         '
         'Burger2
         '
+        Me.Burger2.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger2.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger2.Location = New System.Drawing.Point(157, 140)
         Me.Burger2.Name = "Burger2"
         Me.Burger2.Size = New System.Drawing.Size(145, 40)
         Me.Burger2.TabIndex = 1
         Me.Burger2.Text = "玉米蛋堡"
-        Me.Burger2.UseVisualStyleBackColor = True
+        Me.Burger2.UseVisualStyleBackColor = False
         '
         'Burger1
         '
+        Me.Burger1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Burger1.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Burger1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Burger1.Location = New System.Drawing.Point(6, 140)
         Me.Burger1.Name = "Burger1"
         Me.Burger1.Size = New System.Drawing.Size(145, 40)
         Me.Burger1.TabIndex = 0
         Me.Burger1.Text = "卡啦雞腿堡"
-        Me.Burger1.UseVisualStyleBackColor = True
+        Me.Burger1.UseVisualStyleBackColor = False
         '
         'RichTextBox1
         '
@@ -311,12 +335,15 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Green
+        Me.Button1.Font = New System.Drawing.Font("微軟正黑體", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(1475, 978)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(417, 51)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "結帳"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Price
         '
@@ -362,50 +389,119 @@ Partial Class Form1
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "飲料類"
         '
+        'PictureBox26
+        '
+        Me.PictureBox26.BackgroundImage = CType(resources.GetObject("PictureBox26.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox26.Location = New System.Drawing.Point(608, 222)
+        Me.PictureBox26.Name = "PictureBox26"
+        Me.PictureBox26.Size = New System.Drawing.Size(135, 143)
+        Me.PictureBox26.TabIndex = 23
+        Me.PictureBox26.TabStop = False
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox25.Location = New System.Drawing.Point(459, 222)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(135, 143)
+        Me.PictureBox25.TabIndex = 22
+        Me.PictureBox25.TabStop = False
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox24.Location = New System.Drawing.Point(311, 222)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(135, 143)
+        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox24.TabIndex = 21
+        Me.PictureBox24.TabStop = False
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox23.Location = New System.Drawing.Point(157, 230)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(130, 135)
+        Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox23.TabIndex = 20
+        Me.PictureBox23.TabStop = False
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
+        Me.PictureBox22.Location = New System.Drawing.Point(16, 230)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(116, 135)
+        Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox22.TabIndex = 19
+        Me.PictureBox22.TabStop = False
+        '
         'Drink10
         '
+        Me.Drink10.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink10.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink10.Location = New System.Drawing.Point(610, 380)
         Me.Drink10.Name = "Drink10"
         Me.Drink10.Size = New System.Drawing.Size(145, 40)
         Me.Drink10.TabIndex = 18
         Me.Drink10.Text = "大豆漿"
-        Me.Drink10.UseVisualStyleBackColor = True
+        Me.Drink10.UseVisualStyleBackColor = False
         '
         'Drink9
         '
+        Me.Drink9.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink9.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink9.Location = New System.Drawing.Point(459, 380)
         Me.Drink9.Name = "Drink9"
         Me.Drink9.Size = New System.Drawing.Size(145, 40)
         Me.Drink9.TabIndex = 17
         Me.Drink9.Text = "大柳橙汁"
-        Me.Drink9.UseVisualStyleBackColor = True
+        Me.Drink9.UseVisualStyleBackColor = False
         '
         'Drink8
         '
+        Me.Drink8.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink8.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink8.Location = New System.Drawing.Point(308, 380)
         Me.Drink8.Name = "Drink8"
         Me.Drink8.Size = New System.Drawing.Size(145, 40)
         Me.Drink8.TabIndex = 16
         Me.Drink8.Text = "大綠茶"
-        Me.Drink8.UseVisualStyleBackColor = True
+        Me.Drink8.UseVisualStyleBackColor = False
         '
         'Drink7
         '
+        Me.Drink7.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink7.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink7.Location = New System.Drawing.Point(157, 380)
         Me.Drink7.Name = "Drink7"
         Me.Drink7.Size = New System.Drawing.Size(145, 40)
         Me.Drink7.TabIndex = 15
         Me.Drink7.Text = "大紅茶"
-        Me.Drink7.UseVisualStyleBackColor = True
+        Me.Drink7.UseVisualStyleBackColor = False
         '
         'Drink6
         '
+        Me.Drink6.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink6.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink6.Location = New System.Drawing.Point(6, 380)
         Me.Drink6.Name = "Drink6"
         Me.Drink6.Size = New System.Drawing.Size(145, 40)
         Me.Drink6.TabIndex = 14
         Me.Drink6.Text = "大奶茶"
-        Me.Drink6.UseVisualStyleBackColor = True
+        Me.Drink6.UseVisualStyleBackColor = False
         '
         'PictureBox21
         '
@@ -459,138 +555,171 @@ Partial Class Form1
         '
         'Drink5
         '
+        Me.Drink5.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink5.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink5.Location = New System.Drawing.Point(610, 152)
         Me.Drink5.Name = "Drink5"
         Me.Drink5.Size = New System.Drawing.Size(145, 39)
         Me.Drink5.TabIndex = 8
         Me.Drink5.Text = "豆漿"
-        Me.Drink5.UseVisualStyleBackColor = True
+        Me.Drink5.UseVisualStyleBackColor = False
         '
         'Drink4
         '
+        Me.Drink4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink4.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink4.Location = New System.Drawing.Point(459, 152)
         Me.Drink4.Name = "Drink4"
         Me.Drink4.Size = New System.Drawing.Size(145, 39)
         Me.Drink4.TabIndex = 7
         Me.Drink4.Text = "柳橙汁"
-        Me.Drink4.UseVisualStyleBackColor = True
+        Me.Drink4.UseVisualStyleBackColor = False
         '
         'Drink3
         '
+        Me.Drink3.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink3.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink3.Location = New System.Drawing.Point(308, 152)
         Me.Drink3.Name = "Drink3"
         Me.Drink3.Size = New System.Drawing.Size(145, 40)
         Me.Drink3.TabIndex = 6
         Me.Drink3.Text = "綠茶"
-        Me.Drink3.UseVisualStyleBackColor = True
+        Me.Drink3.UseVisualStyleBackColor = False
         '
         'Drink2
         '
+        Me.Drink2.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink2.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink2.Location = New System.Drawing.Point(157, 152)
         Me.Drink2.Name = "Drink2"
         Me.Drink2.Size = New System.Drawing.Size(145, 40)
         Me.Drink2.TabIndex = 5
         Me.Drink2.Text = "紅茶"
-        Me.Drink2.UseVisualStyleBackColor = True
+        Me.Drink2.UseVisualStyleBackColor = False
         '
         'Drink1
         '
+        Me.Drink1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Drink1.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Drink1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Drink1.Location = New System.Drawing.Point(6, 152)
         Me.Drink1.Name = "Drink1"
         Me.Drink1.Size = New System.Drawing.Size(145, 40)
         Me.Drink1.TabIndex = 0
         Me.Drink1.Text = "奶茶"
-        Me.Drink1.UseVisualStyleBackColor = True
+        Me.Drink1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button2.Font = New System.Drawing.Font("微軟正黑體", 24.0!)
+        Me.Button2.ForeColor = System.Drawing.Color.Red
         Me.Button2.Location = New System.Drawing.Point(1235, 25)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(234, 189)
         Me.Button2.TabIndex = 5
         Me.Button2.Text = "套餐飲料折抵"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Admin1
         '
+        Me.Admin1.BackColor = System.Drawing.Color.Red
         Me.Admin1.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Admin1.Location = New System.Drawing.Point(21, 41)
         Me.Admin1.Name = "Admin1"
         Me.Admin1.Size = New System.Drawing.Size(80, 80)
         Me.Admin1.TabIndex = 6
         Me.Admin1.Text = "清除菜單"
-        Me.Admin1.UseVisualStyleBackColor = True
+        Me.Admin1.UseVisualStyleBackColor = False
         '
         'Admin2
         '
+        Me.Admin2.BackColor = System.Drawing.Color.Red
         Me.Admin2.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin2.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin2.Location = New System.Drawing.Point(127, 41)
         Me.Admin2.Name = "Admin2"
         Me.Admin2.Size = New System.Drawing.Size(80, 80)
         Me.Admin2.TabIndex = 7
         Me.Admin2.Text = "Promo Item"
-        Me.Admin2.UseVisualStyleBackColor = True
+        Me.Admin2.UseVisualStyleBackColor = False
         '
         'Admin3
         '
+        Me.Admin3.BackColor = System.Drawing.Color.Red
         Me.Admin3.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin3.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin3.Location = New System.Drawing.Point(21, 127)
         Me.Admin3.Name = "Admin3"
         Me.Admin3.Size = New System.Drawing.Size(80, 80)
         Me.Admin3.TabIndex = 8
         Me.Admin3.Text = "領班選項"
-        Me.Admin3.UseVisualStyleBackColor = True
+        Me.Admin3.UseVisualStyleBackColor = False
         '
         'Admin4
         '
+        Me.Admin4.BackColor = System.Drawing.Color.Red
         Me.Admin4.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin4.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin4.Location = New System.Drawing.Point(127, 127)
         Me.Admin4.Name = "Admin4"
         Me.Admin4.Size = New System.Drawing.Size(80, 80)
         Me.Admin4.TabIndex = 9
         Me.Admin4.Text = "查看上筆"
-        Me.Admin4.UseVisualStyleBackColor = True
+        Me.Admin4.UseVisualStyleBackColor = False
         '
         'Admin5
         '
+        Me.Admin5.BackColor = System.Drawing.Color.Red
         Me.Admin5.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin5.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin5.Location = New System.Drawing.Point(21, 213)
         Me.Admin5.Name = "Admin5"
         Me.Admin5.Size = New System.Drawing.Size(80, 80)
         Me.Admin5.TabIndex = 10
         Me.Admin5.Text = "員工餐"
-        Me.Admin5.UseVisualStyleBackColor = True
+        Me.Admin5.UseVisualStyleBackColor = False
         '
         'Admin6
         '
+        Me.Admin6.BackColor = System.Drawing.Color.Red
         Me.Admin6.Font = New System.Drawing.Font("微軟正黑體", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin6.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin6.Location = New System.Drawing.Point(127, 213)
         Me.Admin6.Name = "Admin6"
         Me.Admin6.Size = New System.Drawing.Size(80, 80)
         Me.Admin6.TabIndex = 11
         Me.Admin6.Text = "輸入管理密碼"
-        Me.Admin6.UseVisualStyleBackColor = True
+        Me.Admin6.UseVisualStyleBackColor = False
         '
         'Admin7
         '
+        Me.Admin7.BackColor = System.Drawing.Color.Red
         Me.Admin7.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin7.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin7.Location = New System.Drawing.Point(127, 299)
         Me.Admin7.Name = "Admin7"
         Me.Admin7.Size = New System.Drawing.Size(80, 80)
         Me.Admin7.TabIndex = 12
         Me.Admin7.Text = "外帶"
-        Me.Admin7.UseVisualStyleBackColor = True
+        Me.Admin7.UseVisualStyleBackColor = False
         '
         'Admin8
         '
+        Me.Admin8.BackColor = System.Drawing.Color.Red
         Me.Admin8.Font = New System.Drawing.Font("微軟正黑體", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Admin8.ForeColor = System.Drawing.Color.LavenderBlush
         Me.Admin8.Location = New System.Drawing.Point(21, 299)
         Me.Admin8.Name = "Admin8"
         Me.Admin8.Size = New System.Drawing.Size(80, 80)
         Me.Admin8.TabIndex = 13
         Me.Admin8.Text = "內用"
-        Me.Admin8.UseVisualStyleBackColor = True
+        Me.Admin8.UseVisualStyleBackColor = False
         '
         'GroupBox3
         '
@@ -718,136 +847,107 @@ Partial Class Form1
         '
         'Eggroll8
         '
+        Me.Eggroll8.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll8.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll8.Location = New System.Drawing.Point(1063, 140)
         Me.Eggroll8.Name = "Eggroll8"
         Me.Eggroll8.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll8.TabIndex = 7
         Me.Eggroll8.Text = "泡菜蛋餅"
-        Me.Eggroll8.UseVisualStyleBackColor = True
+        Me.Eggroll8.UseVisualStyleBackColor = False
         '
         'Eggroll7
         '
+        Me.Eggroll7.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll7.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll7.Location = New System.Drawing.Point(912, 140)
         Me.Eggroll7.Name = "Eggroll7"
         Me.Eggroll7.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll7.TabIndex = 6
         Me.Eggroll7.Text = "牛肉蛋餅"
-        Me.Eggroll7.UseVisualStyleBackColor = True
+        Me.Eggroll7.UseVisualStyleBackColor = False
         '
         'Eggroll6
         '
+        Me.Eggroll6.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll6.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll6.Location = New System.Drawing.Point(761, 140)
         Me.Eggroll6.Name = "Eggroll6"
         Me.Eggroll6.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll6.TabIndex = 5
         Me.Eggroll6.Text = "香雞蛋餅"
-        Me.Eggroll6.UseVisualStyleBackColor = True
+        Me.Eggroll6.UseVisualStyleBackColor = False
         '
         'Eggroll5
         '
+        Me.Eggroll5.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll5.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll5.Location = New System.Drawing.Point(610, 140)
         Me.Eggroll5.Name = "Eggroll5"
         Me.Eggroll5.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll5.TabIndex = 4
         Me.Eggroll5.Text = "烤肉蛋餅"
-        Me.Eggroll5.UseVisualStyleBackColor = True
+        Me.Eggroll5.UseVisualStyleBackColor = False
         '
         'Eggroll4
         '
+        Me.Eggroll4.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll4.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll4.Location = New System.Drawing.Point(459, 140)
         Me.Eggroll4.Name = "Eggroll4"
         Me.Eggroll4.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll4.TabIndex = 3
         Me.Eggroll4.Text = "豬肉蛋餅"
-        Me.Eggroll4.UseVisualStyleBackColor = True
+        Me.Eggroll4.UseVisualStyleBackColor = False
         '
         'Eggroll3
         '
+        Me.Eggroll3.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll3.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll3.Location = New System.Drawing.Point(308, 140)
         Me.Eggroll3.Name = "Eggroll3"
         Me.Eggroll3.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll3.TabIndex = 2
         Me.Eggroll3.Text = "鮪魚蛋餅"
-        Me.Eggroll3.UseVisualStyleBackColor = True
+        Me.Eggroll3.UseVisualStyleBackColor = False
         '
         'Eggroll2
         '
+        Me.Eggroll2.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll2.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll2.Location = New System.Drawing.Point(157, 140)
         Me.Eggroll2.Name = "Eggroll2"
         Me.Eggroll2.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll2.TabIndex = 1
         Me.Eggroll2.Text = "玉米蛋餅"
-        Me.Eggroll2.UseVisualStyleBackColor = True
+        Me.Eggroll2.UseVisualStyleBackColor = False
         '
         'Eggroll1
         '
+        Me.Eggroll1.BackColor = System.Drawing.SystemColors.GradientActiveCaption
+        Me.Eggroll1.Font = New System.Drawing.Font("微軟正黑體", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.Eggroll1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Eggroll1.Location = New System.Drawing.Point(6, 140)
         Me.Eggroll1.Name = "Eggroll1"
         Me.Eggroll1.Size = New System.Drawing.Size(145, 40)
         Me.Eggroll1.TabIndex = 0
         Me.Eggroll1.Text = "卡啦雞蛋餅"
-        Me.Eggroll1.UseVisualStyleBackColor = True
-        '
-        'PictureBox22
-        '
-        Me.PictureBox22.BackgroundImage = CType(resources.GetObject("PictureBox22.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
-        Me.PictureBox22.Location = New System.Drawing.Point(16, 230)
-        Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(116, 135)
-        Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox22.TabIndex = 19
-        Me.PictureBox22.TabStop = False
-        '
-        'PictureBox23
-        '
-        Me.PictureBox23.BackgroundImage = CType(resources.GetObject("PictureBox23.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox23.Location = New System.Drawing.Point(157, 230)
-        Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(130, 135)
-        Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox23.TabIndex = 20
-        Me.PictureBox23.TabStop = False
-        '
-        'PictureBox24
-        '
-        Me.PictureBox24.BackgroundImage = CType(resources.GetObject("PictureBox24.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox24.Location = New System.Drawing.Point(311, 222)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(135, 143)
-        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox24.TabIndex = 21
-        Me.PictureBox24.TabStop = False
-        '
-        'PictureBox25
-        '
-        Me.PictureBox25.BackgroundImage = CType(resources.GetObject("PictureBox25.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox25.Location = New System.Drawing.Point(459, 222)
-        Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(135, 143)
-        Me.PictureBox25.TabIndex = 22
-        Me.PictureBox25.TabStop = False
-        '
-        'PictureBox26
-        '
-        Me.PictureBox26.BackgroundImage = CType(resources.GetObject("PictureBox26.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox26.Location = New System.Drawing.Point(608, 222)
-        Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(135, 143)
-        Me.PictureBox26.TabIndex = 23
-        Me.PictureBox26.TabStop = False
+        Me.Eggroll1.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(1904, 1041)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(1900, 1037)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Button2)
@@ -856,10 +956,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(1920, 1080)
         Me.MinimumSize = New System.Drawing.Size(1280, 720)
         Me.Name = "Form1"
-        Me.Text = " "
+        Me.Text = "SAADP_V1.0"
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
@@ -870,6 +971,11 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
@@ -885,11 +991,6 @@ Partial Class Form1
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

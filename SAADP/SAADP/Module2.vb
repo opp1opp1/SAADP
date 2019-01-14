@@ -83,9 +83,13 @@ Module Module2
 
         sql = Conn.CreateCommand()
 
+        For i = 1 To 26
+            sql.CommandText = "UPDATE PRODUCTS Set SoldQuantity=SoldQuantity+(Select count(Cpid) FROM CART where CART.Cpid=(@num) ) WHERE PRODUCTS.pid = (@num)"
+            sql.Parameters.Add("@num", Data.DbType.Int16).Value = i
+            Dim result As Integer = sql.ExecuteNonQuery()
+        Next i
 
-        sql.CommandText = "update PRODUCTS SET SoldQuantity = SoldQuantity+1 where ( SELECT Cid From CART  WHERE CART.Cname=PRODUCTS.Pname);" '結帳 不要弄弄妳老母妳佳失火'
-        Dim result As Integer = sql.ExecuteNonQuery()
+        'sql.CommandText = "update PRODUCTS SET SoldQuantity = SoldQuantity+1 where ( SELECT Cid From CART  WHERE CART.Cname=PRODUCTS.Pname);" '結帳 不要弄'
 
     End Sub
 

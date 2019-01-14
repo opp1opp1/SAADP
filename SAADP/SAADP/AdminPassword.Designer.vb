@@ -22,6 +22,7 @@ Partial Class AdminPassword
     '請勿使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminPassword))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button_enter = New System.Windows.Forms.Button()
         Me.Button_clear = New System.Windows.Forms.Button()
@@ -200,8 +201,9 @@ Partial Class AdminPassword
         Me.ClientSize = New System.Drawing.Size(342, 601)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "AdminPassword"
-        Me.Text = "AdminPassword"
+        Me.Text = "輸入密碼"
         Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
 

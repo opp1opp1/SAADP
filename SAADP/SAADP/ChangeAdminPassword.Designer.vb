@@ -22,6 +22,7 @@ Partial Class ChangeAdminPassword
     '請勿使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ChangeAdminPassword))
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button_Enter = New System.Windows.Forms.Button()
@@ -199,8 +200,9 @@ Partial Class ChangeAdminPassword
         Me.ClientSize = New System.Drawing.Size(342, 601)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.RichTextBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ChangeAdminPassword"
-        Me.Text = "ChangeAdminPassword"
+        Me.Text = "更改管理員密碼"
         Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
 

@@ -22,6 +22,7 @@ Partial Class check_out
     '請勿使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(check_out))
         Me.Detail1 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -56,6 +57,7 @@ Partial Class check_out
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Detail1)
         Me.Font = New System.Drawing.Font("新細明體", 9.0!)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "check_out"
         Me.Text = "結帳"
